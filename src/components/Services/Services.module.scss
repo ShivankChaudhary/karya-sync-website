@@ -1,0 +1,40 @@
+@use "@/styles/variable" as *;
+
+@use "sass:color";
+
+.section {
+  :global(.section__header) {
+    text-align: left;
+    margin-bottom: 28px;
+    font-size: $font-size-hero;
+    font-weight: $font-weight-bold;
+  }
+
+  :global(.section__subtitle) {
+    max-width: 520px;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 24px;
+  align-items: stretch;
+}
+
+.grid > * {
+  width: 100%;
+}
+
+@media (max-width: $breakpoint-md) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

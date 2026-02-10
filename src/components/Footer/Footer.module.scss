@@ -1,0 +1,89 @@
+@use "@/styles/variable" as *;
+
+.footer {
+  background: linear-gradient(135deg, #138673 0%, #19b399 100%);
+  color: $color-white;
+  padding: 48px 0;
+}
+
+.footerInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.emailSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: $font-weight-medium;
+  letter-spacing: 0.3px;
+
+  svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  a {
+    cursor: pointer;
+  }
+}
+
+.legalLinks {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  font-size: 13px;
+  a {
+    cursor: pointer;
+  }
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.socialBadge {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.15);
+  color: $color-white;
+  transition: all 0.3s ease;
+  text-decoration: none;
+
+  cursor: pointer;
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  &:hover {
+    background: rgba(255, 255, 255, 0.25);
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .footer {
+    padding: 32px 0;
+  }
+
+  .footerInner {
+    gap: 12px;
+  }
+
+  .menuLinks,
+  .legalLinks {
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,116 @@
+@use "../../styles/variable.scss" as *;
+
+.updatedBadge {
+  display: inline-block;
+  padding: 0.32em 1.2em;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.45);
+  font-size: 1rem;
+  font-weight: $font-weight-medium;
+  color: $color-text-primary;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+  letter-spacing: 0.01em;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  backdrop-filter: blur(2px);
+}
+
+.bannerSection {
+  position: relative;
+  width: 100%;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.bannerBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.bgImage {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.heroImageWrapper {
+  position: relative;
+  z-index: 2;
+  margin-top: 103px;
+  display: flex;
+  justify-content: center;
+}
+
+.heroImage {
+  width: 600px;
+  max-width: 90vw;
+  height: auto;
+}
+
+.contentSection {
+  background: $gradient-lighter-secondary-white;
+  border-radius: 0;
+  margin: 0;
+  padding: 48px 16px 48px 16px;
+  box-shadow: none;
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 350px;
+}
+
+.policyContent {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  color: #0f172a;
+  font-family: $font-family;
+}
+
+.policyContent h1 {
+  font-size: 2.8rem;
+  font-weight: $font-weight-bold;
+  margin-bottom: 1.5rem;
+  letter-spacing: -1px;
+}
+
+.policyContent p {
+  font-size: 1.18rem;
+  margin-bottom: 1.1rem;
+  line-height: 1.7;
+}
+
+.policyContent ul {
+  text-align: left;
+  margin: 0 auto 1.5rem auto;
+  display: inline-block;
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+.policyContent li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .heroImage {
+    width: 100%;
+    max-width: 100vw;
+  }
+  .contentSection {
+    padding: 16px 0 16px 0;
+    top: 0;
+  }
+}

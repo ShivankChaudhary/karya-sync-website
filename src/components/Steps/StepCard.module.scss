@@ -1,0 +1,70 @@
+@use "@/styles/variable" as *;
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32px 24px 0;
+  gap: 0;
+  background: linear-gradient(180deg, $color-light-secondary 0%, #f0fdfb 100%);
+  border-radius: 24px;
+  min-height: 500px;
+  box-shadow:
+    rgba(0, 0, 0, 0.12) 0px 1px 3px,
+    $color-dark-secondary 0px 1px 2px;
+}
+
+.content {
+  margin-bottom: 24px;
+}
+
+.stepLabel {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: $color-primary;
+  color: $color-white;
+  font-size: 16px;
+  font-weight: $font-weight-bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 26px;
+  font-weight: $font-weight-bold;
+  color: $color-text-primary;
+  line-height: 1.5;
+  max-width: 320px;
+}
+
+.imageWrapper {
+  width: 100%;
+}
+
+.image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .image {
+    width: 180px;
+  }
+
+  .content {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,46 @@
+$color-primary: #138673;
+$color-secondary: #aaf3e7;
+$color-dark-secondary: #19b399;
+$color-light-secondary: #e9fcf9;
+$color-text-primary: #0f172a;
+$color-text-secondary: #475569;
+$color-border: #e2e8f0;
+$color-white: #ffffff;
+$color-bg-light: #f8fafc;
+$gradient-darker-secondary-white: linear-gradient(
+  90deg,
+  $color-secondary 0%,
+  $color-white 100%
+);
+
+$gradient-lighter-secondary-white: linear-gradient(
+  90deg,
+  $color-white 0%,
+  $color-light-secondary 40%,
+  $color-light-secondary 60%,
+  $color-white 100%
+);
+$font-family: "Inter", sans-serif;
+
+$font-size-hero: 56px;
+$font-size-section-heading: 36px;
+$font-size-sub-heading: 24px;
+$font-size-card-title: 18px;
+$font-size-body: 17px;
+$font-size-small: 14px;
+$font-size-button: 16px;
+$font-size-navbar: 15px;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$radius-card: 20px;
+$padding-card: 20px;
+$shadow-card: 0px 10px 25px rgba(0, 0, 0, 0.08);
+
+$breakpoint-lg: 1200px;
+$breakpoint-md: 992px;
+$breakpoint-sm: 768px;
+$breakpoint-xs: 520px;

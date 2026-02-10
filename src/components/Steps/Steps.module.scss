@@ -1,0 +1,13 @@
+@use "@/styles/variable" as *;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: $breakpoint-md) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

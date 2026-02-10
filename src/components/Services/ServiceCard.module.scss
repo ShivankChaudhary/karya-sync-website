@@ -1,0 +1,62 @@
+@use "@/styles/variable" as *;
+
+.card {
+  background: #ffffff;
+  border-radius: 22px;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+  border: 2px solid $color-primary;
+  opacity: 0;
+  transform: translateY(24px);
+  animation: fadeUpServiceCard 1.8s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 0;
+  background: $gradient-darker-secondary-white;
+
+  transition: background 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 0;
+  }
+}
+
+.title {
+  font-size: 25px;
+  font-weight: $font-weight-bold;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #64748b;
+  margin-top: 15px;
+}
+
+@keyframes fadeUpServiceCard {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  60% {
+    opacity: 0.7;
+    transform: translateY(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
