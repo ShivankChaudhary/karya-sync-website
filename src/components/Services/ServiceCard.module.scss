@@ -7,7 +7,7 @@
   text-align: center;
   width: 100%;
   box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
-  border: 2px solid $color-primary;
+  //border: 2px solid $color-primary;
   opacity: 0;
   transform: translateY(24px);
   animation: fadeUpServiceCard 1.8s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
@@ -41,6 +41,7 @@
 
 .description {
   font-size: 15px;
+  padding: 10px;
   line-height: 1.4;
   color: #64748b;
   margin-top: 15px;

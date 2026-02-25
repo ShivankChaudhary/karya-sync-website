@@ -10,7 +10,7 @@ export default function Services() {
         <header className="section__header">
           <h2 className="section__title">Our Services</h2>
           <p className="section__subtitle">
-            Book trusted civil labour & mistri online
+            Book trusted labour & mistri online
           </p>
         </header>
         <div className={styles.grid}>

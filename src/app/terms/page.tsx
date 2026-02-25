@@ -8,13 +8,13 @@ import heroImg from "@/assets/images/karya-heros.png";
 export default function Terms() {
   return (
     <>
-      <Navbar
+      {/* <Navbar
         links={[
           { label: "Services", href: "#services" },
           { label: "How it works", href: "#steps" },
           { label: "FAQs", href: "#faqs" },
         ]}
-      />
+      /> */}
       <section className={styles.bannerSection}>
         <div className={styles.bannerBg}>
           <Image
@@ -65,7 +65,8 @@ export default function Terms() {
             <a
               href="https://termify.io"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               Termify
             </a>
             .
