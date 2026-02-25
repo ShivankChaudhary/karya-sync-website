@@ -59,6 +59,10 @@ export default function Footer() {
           </svg>
 
           <a href="tel:+917678112184">+91 7678112184</a>
+          <span className={styles.separator}>|</span>
+          <a href="/contact-us" target="_blank">
+            Contact Us
+          </a>
         </div>
 
         <div className={styles.legalLinks}>
