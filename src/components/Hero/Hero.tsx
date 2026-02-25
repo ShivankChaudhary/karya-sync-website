@@ -18,20 +18,21 @@ export default function Hero() {
             <a
               href="https://play.google.com/store/apps/details?id=com.KaryaSync.app"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               <Image
                 src={heroContent.playStore}
                 alt="Download on Google Play"
                 className={styles.storeBadge}
               />
             </a>
-            <a href="/">
+            {/* <a href="/">
               <Image
                 src={heroContent.appStore}
                 alt="Download on the App Store"
                 className={styles.storeBadge}
               />
-            </a>
+            </a> */}
           </div>
         </div>
 

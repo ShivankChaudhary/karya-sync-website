@@ -4,15 +4,18 @@ import appStore from "@/assets/images/appstore.png";
 import playStore from "@/assets/images/playstore.png";
 import heroImage from "@/assets/images/hero-section.png";
 import heroBackground from "@/assets/images/hero-section-bg-banner.png";
-import civilConsultant from "@/assets/images/civil-consultant.png";
-import generalLabour from "@/assets/images/general-labour.png";
-import mistri from "@/assets/images/mistri.png";
+import civilConsultant from "@/assets/images/FinalConsultant.png";
+import generalLabour from "@/assets/images/LabourNew.png";
+import mistri from "@/assets/images/FinalMistriNew.png";
+import combo from "@/assets/images/FinalComboNew.png";
 import stepOne from "@/assets/images/Step1.png";
 import stepTwo from "@/assets/images/Step2.png";
 import stepThree from "@/assets/images/Step3.png";
+
 import customerOne from "@/assets/images/customer-placeholder-icon1.png";
 import customerTwo from "@/assets/images/customer-placeholder-icon2.png";
 import customerThree from "@/assets/images/customer-placeholder-icon3.png";
+import { Combo } from "next/font/google";
 
 export const navLinks = [
   { label: "Services", href: "#services" },
@@ -21,7 +24,7 @@ export const navLinks = [
 ];
 
 export const heroContent = {
-  heading: "India's first Labour and Mistri home service platform",
+  heading: "India's First Labour And Mistri Home Service Platform",
   location: "Now live in Indirapuram, Noida!",
   appStore,
   playStore,
@@ -37,20 +40,27 @@ export type ServiceItem = {
 
 export const services: ServiceItem[] = [
   {
-    title: "Mason / Mistri",
+    title: "Labour",
     description:
-      "Choose from Wall Construction, Construction Cleaning, Tile Installation & more.",
-    image: mistri,
-  },
-  {
-    title: "Labour (General)",
-    description:
-      "Select from Loading & Unloading Work, Construction Site Cleaning & more.",
+      "Choose for Loading & Unloading, Construction Site, Cleaning Work & more.",
     image: generalLabour,
   },
   {
-    title: "Civil Consultant",
-    description: "Expert guidance service to review the details.",
+    title: "Mason / Mistri",
+    description:
+      "Choose for any kind of repair, Construction, Tile Installation & more.",
+    image: mistri,
+  },
+  {
+    title: "Labour+Mistri",
+    description:
+      "Choose for the combo service of both Labour and Mistri for your construction and repair needs.",
+    image: combo,
+  },
+  {
+    title: "Karya Consultant",
+    description:
+      "Expert guidance service for your construction and renovation projects.",
     image: civilConsultant,
   },
 ];
@@ -116,12 +126,12 @@ export const faqs: FaqItem[] = [
   {
     question: "What is Karya Sync?",
     answer:
-      "Karya Sync is an on-demand platform that helps you find skilled civil workers for home and site-related jobs. We connect verified labourers and mistris with customers who need trusted support for construction, renovation, repair, and maintenance work. You can book services instantly or schedule them in advance for timely and reliable service at your location.",
+      "Karya Sync is an on-demand platform that is here to transform the way you access labour and mistri services and get your repair or construction work done.",
   },
   {
     question: "How do I book services?",
     answer:
-      "You can book services using the Karya Sync mobile app, available on both Android and iOS platforms. Just choose the type of service you need, select a suitable time slot, and we will assign a verified worker based on your requirement.",
+      "You can book services using the Karya Sync mobile app, available on Android. Just choose the type of service you need, select a suitable time slot, and we will assign a verified worker based on your requirement.",
   },
   {
     question: "How is service pricing calculated?",
