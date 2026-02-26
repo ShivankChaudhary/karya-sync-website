@@ -131,6 +131,10 @@ export default function Footer() {
             </a>
           ))}
         </div>
+
+        <div className={styles.copyright}>
+          © 2026 KARYA SYNC PRIVATE LIMITED. All rights reserved.
+        </div>
       </div>
     </footer>
   );
