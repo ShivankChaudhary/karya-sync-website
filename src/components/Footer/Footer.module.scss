@@ -72,6 +72,13 @@
   }
 }
 
+.copyright {
+  font-size: 13px;
+  font-weight: $font-weight-regular;
+  opacity: 0.9;
+  margin-top: 8px;
+}
+
 @media (max-width: $breakpoint-sm) {
   .footer {
     padding: 32px 0;
