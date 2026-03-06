@@ -1,29 +1,41 @@
 "use client";
 import { useState, FormEvent } from "react";
 import styles from "./contact-us.module.scss";
+import { contactUs } from "@/api/contactUs";
 
 export default function ContactUsPage() {
   const [formData, setFormData] = useState({
     name: "",
+    phoneNumber: "",
+    desiredService: "",
     email: "",
     message: "",
   });
   const [errors, setErrors] = useState({
     name: "",
+    phoneNumber: "",
+    desiredService: "",
     email: "",
     message: "",
   });
   const [isLoading, setIsLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
 
-  const validateEmail = (email: string) => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
+  const validatePhoneNumber = (phone: string) => {
+    const phoneRegex = /^[0-9]{10}$/;
+    return phoneRegex.test(phone);
   };
+
+  // const validateEmail = (email: string) => {
+  //   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  //   return emailRegex.test(email);
+  // };
 
   const validateForm = () => {
     const newErrors = {
       name: "",
+      phoneNumber: "",
+      desiredService: "",
       email: "",
       message: "",
     };
@@ -34,18 +46,28 @@ export default function ContactUsPage() {
       isValid = false;
     }
 
-    if (!formData.email.trim()) {
-      newErrors.email = "Email is required";
+    if (!formData.phoneNumber.trim()) {
+      newErrors.phoneNumber = "Phone number is required";
       isValid = false;
-    } else if (!validateEmail(formData.email)) {
-      newErrors.email = "Please enter a valid email";
+    } else if (!validatePhoneNumber(formData.phoneNumber)) {
+      newErrors.phoneNumber = "Please enter a valid 10-digit phone number";
       isValid = false;
     }
 
-    if (!formData.message.trim()) {
-      newErrors.message = "Message is required";
+    if (!formData.desiredService) {
+      newErrors.desiredService = "Service is required";
       isValid = false;
     }
+
+    // if (!formData.email.trim()) {
+    //   newErrors.email = "Email is required";
+    //   isValid = false;
+    // } else if (!validateEmail(formData.email)) {
+    //   newErrors.email = "Please enter a valid email";
+    //   isValid = false;
+    // }
+
+    // Message is optional, no validation needed
 
     setErrors(newErrors);
     return isValid;
@@ -60,15 +82,24 @@ export default function ContactUsPage() {
 
     setIsLoading(true);
 
-    // Simulate 1 second delay
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-
+    const { data, error } = await contactUs(formData);
+    debugger;
     setIsLoading(false);
+
+    if (error) {
+      alert("Error sending request - Please try again.");
+      return;
+    }
+
+    // clear any previous errors before showing success
+
     setIsSuccess(true);
 
     // Reset form
     setFormData({
       name: "",
+      phoneNumber: "",
+      desiredService: "",
       email: "",
       message: "",
     });
@@ -80,7 +111,9 @@ export default function ContactUsPage() {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -165,6 +198,57 @@ export default function ContactUsPage() {
             </div>
 
             <div className={styles.formGroup}>
+              <label htmlFor="phoneNumber" className={styles.label}>
+                Phone Number <span className={styles.required}>*</span>
+              </label>
+              <input
+                type="tel"
+                id="phoneNumber"
+                name="phoneNumber"
+                value={formData.phoneNumber}
+                onChange={handleChange}
+                onInput={(e) => {
+                  // strip non-digits as user types
+                  const target = e.target as HTMLInputElement;
+                  target.value = target.value.replace(/[^0-9]/g, "");
+                }}
+                inputMode="numeric"
+                pattern="[0-9]*"
+                className={`${styles.input} ${errors.phoneNumber ? styles.inputError : ""}`}
+                placeholder="Enter your 10-digit phone number"
+                disabled={isLoading}
+              />
+              {errors.phoneNumber && (
+                <span className={styles.errorText}>{errors.phoneNumber}</span>
+              )}
+            </div>
+
+            <div className={styles.formGroup}>
+              <label htmlFor="desiredService" className={styles.label}>
+                Service <span className={styles.required}>*</span>
+              </label>
+              <select
+                id="desiredService"
+                name="desiredService"
+                value={formData.desiredService}
+                onChange={handleChange}
+                className={`${styles.input} ${errors.desiredService ? styles.inputError : ""}`}
+                disabled={isLoading}
+              >
+                <option value="">Select a service</option>
+                <option value="Labour">Labour</option>
+                <option value="Labour+Mistri">Labour+Mistri</option>
+                <option value="Mistri">Mistri</option>
+                <option value="Consultant">Consultant</option>
+              </select>
+              {errors.desiredService && (
+                <span className={styles.errorText}>
+                  {errors.desiredService}
+                </span>
+              )}
+            </div>
+
+            {/* <div className={styles.formGroup}>
               <label htmlFor="email" className={styles.label}>
                 Email <span className={styles.required}>*</span>
               </label>
@@ -181,11 +265,11 @@ export default function ContactUsPage() {
               {errors.email && (
                 <span className={styles.errorText}>{errors.email}</span>
               )}
-            </div>
+            </div> */}
 
             <div className={styles.formGroup}>
               <label htmlFor="message" className={styles.label}>
-                Message <span className={styles.required}>*</span>
+                Message
               </label>
               <textarea
                 id="message"
