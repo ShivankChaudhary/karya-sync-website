@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "@/styles/globals.scss";
 
 const inter = Inter({
@@ -25,11 +26,6 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
         {/* Google Tag Manager */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-NX7NCCLS');`,
-          }}
-        />
         {/* End Google Tag Manager */}
         <meta
           name="keywords"
@@ -58,6 +54,15 @@ export default function RootLayout({
         <meta name="twitter:image" content="/assets/images/logo.png" />
       </head>
       <body className={inter.className}>
+        {/* Google Tag Manager */}
+        <Script
+          id="gtm"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-NX7NCCLS');`,
+          }}
+        />
+        {/* End Google Tag Manager */}
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
