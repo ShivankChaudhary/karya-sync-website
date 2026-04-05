@@ -2,7 +2,7 @@ import type { StaticImageData } from "next/image";
 
 import appStore from "@/assets/images/appstore.png";
 import playStore from "@/assets/images/playstore.png";
-import heroImage from "@/assets/images/hero-section.png";
+import heroImage from "@/assets/images/S3.png";
 import heroBackground from "@/assets/images/hero-section-bg-banner.png";
 import civilConsultant from "@/assets/images/FinalConsultant.png";
 import generalLabour from "@/assets/images/LabourNew.png";
@@ -25,7 +25,7 @@ export const navLinks = [
 ];
 
 export const heroContent = {
-  heading: "India's First Labour And Mistri Home Service Platform",
+  heading: "India's First Labour And Mistri Booking App",
   location: "Now live in Indirapuram, Noida!",
   appStore,
   playStore,
