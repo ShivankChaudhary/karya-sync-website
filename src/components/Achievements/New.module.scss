@@ -1,0 +1,70 @@
+@use "@/styles/variable" as *;
+
+.achievementSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  margin: 3rem 0;
+  flex-wrap: wrap;
+}
+
+.achievementCard {
+  background: $color-white;
+  border-radius: $radius-card;
+  box-shadow: 0 12px 28px rgba(25, 179, 153, 0.18);
+  padding: $padding-card 2.5rem;
+  text-align: center;
+  flex: 1 1 250px;
+  min-width: 250px;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s;
+  // border: 2px solid $color-dark-secondary;
+  margin-bottom: 1.5rem;
+
+  &:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 12px 28px rgba(25, 179, 153, 0.18);
+  }
+}
+
+.iconWrapper {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $gradient-darker-secondary-white;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+  font-size: 2.2rem;
+  color: $color-dark-secondary;
+}
+
+.number {
+  font-size: 2.5rem;
+  font-weight: $font-weight-bold;
+  color: $color-dark-secondary;
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  font-size: $font-size-body;
+  color: $color-text-secondary;
+  font-weight: $font-weight-medium;
+}
+
+@media (max-width: 900px) {
+  .achievementSection {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .achievementCard {
+    max-width: 90vw;
+  }
+}

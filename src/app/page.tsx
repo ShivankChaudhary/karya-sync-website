@@ -1,3 +1,4 @@
+import AchievementComp from "@/components/Achievements/AchievementComp";
 import Faq from "@/components/Faq/Faq";
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar links={navLinks} />
       <main>
         <Hero />
+        <AchievementComp />
         <Services />
         <Steps />
         {/* <Testimonials /> */}

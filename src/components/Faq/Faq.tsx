@@ -1,6 +1,8 @@
+import { FaClipboardCheck } from "react-icons/fa";
 import styles from "./Faq.module.scss";
 
 import { faqs } from "@/data/siteData";
+import { BiChevronDown } from "react-icons/bi";
 
 export default function Faq() {
   return (
@@ -18,7 +20,9 @@ export default function Faq() {
               <summary className={styles.summary}>
                 <span className={styles.badge}>{index + 1}</span>
                 <span className={styles.question}>{faq.question}</span>
-                <span className={styles.icon}>−</span>
+                <span className={styles.icon}>
+                  <BiChevronDown />
+                </span>
               </summary>
               <p className={`text-body ${styles.answer}`}>{faq.answer}</p>
             </details>

@@ -19,6 +19,7 @@ import { Combo } from "next/font/google";
 
 export const navLinks = [
   { label: "Services", href: "#services" },
+  { label: "Why Us", href: "#achievements" },
   { label: "How it works", href: "#steps" },
   { label: "FAQs", href: "#faqs" },
   { label: "Contact Us", href: "/contact-us" },
