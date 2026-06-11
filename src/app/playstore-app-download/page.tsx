@@ -44,12 +44,16 @@ export default function PlayStoreRedirect() {
         padding: "20px",
       }}
     >
-      <h1>Redirecting...</h1>
-      <p>Please wait while we open the app store.</p>
-
-      {showManualOptions && (
+      {!showManualOptions ? (
         <>
-          <p>Automatic redirection didn't work. Please choose your platform:</p>
+          <h1>Redirecting...</h1>
+          <p>Please wait while we open the app store.</p>
+        </>
+      ) : (
+        <>
+          <h2>
+            Automatic redirection didn't work. Please choose your platform:
+          </h2>
 
           <div
             style={{
