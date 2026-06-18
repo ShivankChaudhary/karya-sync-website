@@ -26,6 +26,17 @@ export default function Hero() {
                 className={styles.storeBadge}
               />
             </a>
+            <a
+              href="https://apps.apple.com/in/app/karya-sync/id6762136586"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={heroContent.appStore}
+                alt="Download on App Store"
+                className={styles.storeBadge}
+              />
+            </a>
             {/* <a href="/">
               <Image
                 src={heroContent.appStore}
