@@ -85,8 +85,8 @@ export default function Navbar({ links }: NavbarProps) {
               <Image
                 src="/assets/images/logo.png"
                 alt="Karya Sync Logo"
-                width={32}
-                height={32}
+                width={40}
+                height={40}
                 className={styles.logo}
                 style={{ marginRight: 8 }}
               />

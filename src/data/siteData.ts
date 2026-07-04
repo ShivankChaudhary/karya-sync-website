@@ -18,10 +18,12 @@ import customerThree from "@/assets/images/customer-placeholder-icon3.png";
 import { Combo } from "next/font/google";
 
 export const navLinks = [
-  { label: "Services", href: "#services" },
   { label: "Why Us", href: "#achievements" },
+  { label: "Services", href: "#services" },
+
   { label: "How it works", href: "#steps" },
   { label: "FAQs", href: "#faqs" },
+  { label: "Testimonials", href: "#testimonials" },
   { label: "Contact Us", href: "/contact-us" },
 ];
 
@@ -97,24 +99,24 @@ export type TestimonialItem = {
 
 export const testimonials: TestimonialItem[] = [
   {
-    name: "Pradeep Sharma",
-    location: "Sector 54",
+    name: "Varun Goel",
+    location: "Sector 62",
     message:
-      "Booking a Mistri was quick and easy. They arrived within 15 minutes, worked efficiently, and delivered excellent service. Karya Sync made the whole process seamless.",
+      "Highly impressed with the construction services! The platform made it seamless to find reliable Mistrys and laborers at a very reasonable price. The team arrived with a great, positive attitude and a clear focus on completing the work on time. Excellent value for money and great teamwork…",
     avatar: customerOne,
   },
   {
-    name: "Swati Agarwal",
-    location: "Sector 55",
+    name: "Kavi Chauhan",
+    location: "Greater Noida",
     message:
-      "The labour sent by Karya Sync was seamless and offered great service. I have used it multiple times, and the team has done a great job.",
+      "My experience was very good with Karya sync. It's hard to find labour and Mason in some areas there karya sync comes to the rescue.. fair price value no hidden cost and hourly/full day service selection at ease. Also very good customer support. 100% recommended.",
     avatar: customerTwo,
   },
   {
-    name: "Anil Yadav",
-    location: "Sector 56",
+    name: "Tarun Grover",
+    location: "Sector 82",
     message:
-      "Had a last-minute requirement, and Karya Sync delivered the services on time without any delays. The team handled everything very professionally and did an excellent job. Highly recommended 👍.",
+      "Karya Sync is solving a genuine problem. Overall satisfied with their work and timely delivery of work.",
     avatar: customerThree,
   },
 ];
@@ -128,12 +130,12 @@ export const faqs: FaqItem[] = [
   {
     question: "What is Karya Sync?",
     answer:
-      "Karya Sync is an on-demand platform that is here to transform the way you access labour and mistri services and get your repair or construction work done.",
+      "Karya Sync is an instant labour & mistri booking app that is here to transform the way you access labour and mistri services and get your repair or construction work done.",
   },
   {
     question: "How do I book services?",
     answer:
-      "You can book services using the Karya Sync mobile app, available on Android. Just choose the type of service you need, select a suitable time slot, and we will assign a verified worker based on your requirement.",
+      "You can book services using the Karya Sync mobile app, available on Android and iOS. Just choose the type of service you need, select a suitable time slot, and we will assign a verified worker based on your requirement.",
   },
   {
     question: "How is service pricing calculated?",
@@ -143,7 +145,7 @@ export const faqs: FaqItem[] = [
   {
     question: "Where can I use Karya Sync?",
     answer:
-      "Currently, Karya Sync operates in Indirapuram and Noida. You can check availability by entering your location in the app. More cities will be added soon.",
+      "Currently, Karya Sync operates in  Noida, Indrapuram, Vasundhara, Greater Noida west. You can check availability by entering your location in the app. More cities will be added soon.",
   },
   {
     question: "How do I contact Support?",

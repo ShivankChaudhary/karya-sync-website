@@ -4,7 +4,7 @@ import styles from "./New.module.scss";
 const achievements = [
   {
     icon: <FaClipboardCheck />,
-    number: "300+",
+    number: "500+",
     label: "Bookings Done",
   },
   {
