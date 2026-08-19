@@ -2,10 +2,9 @@
 
 import React from "react";
 import styles from "./appDownload.module.scss";
-import Hero from "@/components/Hero/Hero";
 import appStore from "@/assets/images/appstore.png";
 import playStore from "@/assets/images/playstore.png";
-import heroImage from "@/assets/images/S3.png";
+import heroImage from "@/assets/images/S3.webp";
 import styles2 from "@/components/Hero/Hero.module.scss";
 import Image from "next/image";
 import { heroContent } from "@/data/siteData";
