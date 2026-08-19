@@ -173,7 +173,7 @@
   }
 
   .heroImage {
-    width: 110%;
+    width: 90%;
     margin-top: -24px;
   }
 }
@@ -188,7 +188,17 @@
   }
 
   .heroImage {
-    width: 96%;
+    width: 90%;
+  }
+  .heroInner {
+    grid-template-columns: 1fr;
+    padding-left: 12px;
+    padding-right: 12px;
+    gap: 10px;
+  }
+  .media {
+    order: -1;
+    min-height: 250px;
   }
 }
 
@@ -198,6 +208,6 @@
   }
 
   .heroImage {
-    width: 100%;
+    width: 90%;
   }
 }

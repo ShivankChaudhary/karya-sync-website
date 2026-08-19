@@ -4,12 +4,12 @@ import styles from "./New.module.scss";
 const achievements = [
   {
     icon: <FaClipboardCheck />,
-    number: "500+",
+    number: "800+",
     label: "Bookings Done",
   },
   {
     icon: <FaUserTie />,
-    number: "20+",
+    number: "30+",
     label: "Workers Employed Daily",
   },
   {
