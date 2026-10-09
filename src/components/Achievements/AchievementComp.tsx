@@ -1,4 +1,3 @@
-import React from "react";
 import { FaClipboardCheck, FaUserTie, FaStar } from "react-icons/fa";
 import styles from "./New.module.scss";
 const achievements = [
