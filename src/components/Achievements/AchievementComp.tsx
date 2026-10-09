@@ -1,21 +1,22 @@
 import React from "react";
-import { FaClipboardCheck, FaUserTie, FaCouch } from "react-icons/fa";
+import { FaClipboardCheck, FaUserTie, FaStar } from "react-icons/fa";
 import styles from "./New.module.scss";
 const achievements = [
   {
     icon: <FaClipboardCheck />,
-    number: "800+",
+    number: "1500+",
     label: "Bookings Done",
+  },
+
+  {
+    icon: <FaStar />,
+    number: "4.7 / 5",
+    label: "Customer Satisfaction",
   },
   {
     icon: <FaUserTie />,
-    number: "30+",
-    label: "Workers Employed Daily",
-  },
-  {
-    icon: <FaCouch />,
-    number: "10+",
-    label: "Backed by Interior Designers",
+    number: "100+",
+    label: "Registered Professionals",
   },
 ];
 
