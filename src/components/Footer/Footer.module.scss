@@ -17,22 +17,30 @@
 .emailSection {
   display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap; // new
+  gap: 8px 12px; // row gap, column gap
   font-size: 14px;
   font-weight: $font-weight-medium;
   letter-spacing: 0.3px;
+
+  a {
+    cursor: pointer;
+    white-space: nowrap; // stops "+91 7678112184" breaking
+  }
+}
+
+.contactItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 
   svg {
     width: 20px;
     height: 20px;
     flex-shrink: 0;
   }
-
-  a {
-    cursor: pointer;
-  }
 }
-
 .legalLinks {
   display: flex;
   align-items: center;
@@ -85,12 +93,22 @@
   }
 
   .footerInner {
-    gap: 12px;
+    gap: 16px;
+    padding: 0 16px; // keeps text off the screen edges
   }
 
-  .menuLinks,
+  .emailSection {
+    flex-direction: column; // email, phone, contact stacked and centered
+    gap: 10px;
+
+    .separator {
+      display: none; // the | dividers make no sense when stacked
+    }
+  }
+
   .legalLinks {
     flex-wrap: wrap;
     font-size: 12px;
+    gap: 6px 8px;
   }
 }

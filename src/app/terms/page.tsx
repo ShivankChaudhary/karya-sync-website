@@ -37,610 +37,242 @@ export default function Terms() {
       </section>
       <main className={styles.contentSection}>
         <div className={styles.policyContent}>
-          <h1>Terms & Conditions</h1>
-
-          <h2>General Terms</h2>
-          <p>
-            By accessing and placing an order with Karya Sync, you confirm that
-            you are in agreement with and bound by the terms of service
-            contained in the Terms & Conditions outlined below. These terms
-            apply to the entire website and any email or other type of
-            communication between you and Karya Sync.
-          </p>
-          <p>
-            Under no circumstances shall Karya Sync team be liable for any
-            direct, indirect, special, incidental or consequential damages,
-            including, but not limited to, loss of data or profit, arising out
-            of the use, or the inability to use, the materials on this site,
-            even if Karya Sync team or an authorized representative has been
-            advised of the possibility of such damages. If your use of materials
-            from this site results in the need for servicing, repair or
-            correction of equipment or data, you assume any costs thereof.
-          </p>
-          <p>
-            Karya Sync will not be responsible for any outcome that may occur
-            during the course of usage of our resources. We reserve the rights
-            to change prices and revise the resources usage policy in any
-            moment. This Terms & Conditions was created with{" "}
-            <a
-              href="https://termify.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Termify
-            </a>
-            .
-          </p>
-          <h2>License</h2>
-          <p>
-            Karya Sync grants you a revocable, non-exclusive, non-transferable,
-            limited license to download, install and use the app strictly in
-            accordance with the terms of this Agreement.
-          </p>
-          <p>
-            These Terms & Conditions are a contract between you and Karya Sync
-            (referred to in these Terms & Conditions as "Karya Sync", "us", "we"
-            or "our"), the provider of the Karya Sync website and the services
-            accessible from the Karya Sync website (which are collectively
-            referred to in these Terms & Conditions as the "Karya Sync
-            Service").
-          </p>
-          <p>
-            You are agreeing to be bound by these Terms & Conditions. If you do
-            not agree to these Terms & Conditions, please do not use the Karya
-            Sync Service. In these Terms & Conditions, "you" refers both to you
-            as an individual and to the entity you represent. If you violate any
-            of these Terms & Conditions, we reserve the right to cancel your
-            account or block access to your account without notice.
-          </p>
-          <h2>Definitions and key terms</h2>
-          <p>
-            To help explain things as clearly as possible in this Terms &
-            Conditions, every time any of these terms are referenced, are
-            strictly defined as:
-          </p>
+          <h1> Terms and Conditions</h1>
+          <span className={styles.updatedBadge}>
+            Last Updated: 1st September, 2026
+          </span>
+          <p>These Terms and Conditions (“Terms”) govern your access to and use of the website, mobile application, and other digital platforms operated by Karya Sync Private Limited (“<strong>Karya Sync</strong>”, “<strong>Karya</strong>”, “<strong>we</strong>”, “<strong>us</strong>”, or “<strong>our</strong>”), together with all services, features, content, applications, and facilities made available through such platforms (collectively, the “Platform”).</p>
+          <p>These Terms shall be read together with our Privacy Policy, Refund and Cancellation Policy, Community Guidelines, and any additional terms, policies, notices, or guidelines issued by Karya from time to time (collectively, the “Supplementary Policies”). All such Supplementary Policies form an integral part of these Terms. In the event of any inconsistency between these Terms and any Supplementary Policy in relation to a particular Service, the relevant Supplementary Policy shall prevail to the extent of such inconsistency.</p>
+          <p>These Terms constitute a legally binding agreement between Karya Sync Private Limited, a company incorporated under the provisions of the Companies Act, 2013, having its registered office at House No. 14A, Ashoka Society, Vasundhara, Ghaziabad, Uttar Pradesh, India, and every individual or legal entity that accesses, browses, registers on, or uses the Platform or books any service through the Platform (collectively referred to as “Customer”, “you”, or “your”).</p>
+          <p>By accessing or using the Platform, creating an account, placing a booking, or otherwise availing any Service through the Platform, you represent and warrant that:</p>
           <ul>
-            <li>
-              Cookie: small amount of data generated by a website and saved by
-              your web browser. It is used to identify your browser, provide
-              analytics, remember information about you such as your language
-              preference or login information.
-            </li>
-            <li>
-              Company: when this policy mentions “Company,” “we,” “us,” or
-              “our,” it refers to Karya sync privated limited, House
-              No.01,Sector-14A, Ashoka Society Vasundhara Ghaziabad, UP that is
-              responsible for your information under this Terms & Conditions.
-            </li>
-            <li>
-              Country: where Karya Sync or the owners/founders of Karya Sync are
-              based, in this case is India
-            </li>
-            <li>
-              Device: any internet connected device such as a phone, tablet,
-              computer or any other device that can be used to visit Karya Sync
-              and use the services.
-            </li>
-            <li>
-              Service: refers to the service provided by Karya Sync as described
-              in the relative terms (if available) and on this platform.
-            </li>
-            <li>
-              Third-party service: refers to advertisers, contest sponsors,
-              promotional and marketing partners, and others who provide our
-              content or whose products or services we think may interest you.
-            </li>
-            <li>
-              Website: Karya Sync's site, which can be accessed via this URL:
-            </li>
-            <li>
-              You: a person or entity that is registered with Karya Sync to use
-              the Services.
-            </li>
+            <li>you are at least 18 (Eighteen) years of age and are competent to enter into a legally binding contract under applicable law;</li>
+            <li>all information provided by you is true, accurate, complete, and up to date;</li>
+            <li>where you are acting on behalf of another individual, company, partnership, association, or other legal entity, you have the necessary authority to bind such person or entity to these Terms; and</li>
+            <li>You have read, understood, and agree to be bound by these Terms and all applicable Supplementary Policies.</li>
           </ul>
-          <h2>Restrictions</h2>
-          <p>You agree not to, and you will not permit others to:</p>
+          <p>If you do not agree to these Terms or any applicable Supplementary Policy, you must immediately discontinue use of the Platform and refrain from booking or using any Services offered through the Platform.</p>
+          <p>Karya reserves the right to amend, modify, or update these Terms from time to time. Any such revisions shall become effective upon publication on the Platform or upon such other notice as may be provided by Karya. Your continued access to or use of the Platform after such revisions shall constitute your acceptance of the revised Terms.</p>
+          <p>The Platform operates solely as a technology-enabled marketplace facilitating the connection between Customers and independent Service Partners. Unless expressly stated otherwise, Karya does not itself provide the services listed on the Platform.</p>
+          <h2>1. SERVICES</h2>
+          <p>1.1 Karya operates a technology-enabled marketplace platform that enables Customers to discover, request, schedule, and obtain various home, household, maintenance, repair, labour, relocation, cleaning, and other services from independent service providers registered on the Platform (“<strong>Service Partners</strong>” or “<strong>Karya Heroes</strong>”).</p>
+          <p>1.2 Karya facilitates the booking of Services, communication between Customers and Service Partners, collection and settlement of payments, customer support, and other ancillary services through the Platform. Karya may also provide operational assistance, quality monitoring, dispute-resolution support, and other value-added services in connection with the Platform.</p>
+          <p>1.3 The Services requested by Customers are performed solely by independent Service Partners. Karya does not itself provide such Services and does not supervise or control the manner in which the Services are performed. Accordingly, the Service Partner shall remain solely responsible and liable for the execution, quality, safety, legality, and completion of the Services, subject to Karya’s obligations under applicable law.</p>
+          <p>1.4 Nothing contained in these Terms shall be construed as creating any employer-employee relationship, agency, partnership, joint venture, or representative relationship between Karya and any Service Partner. Service Partners act as independent service providers and shall have no authority to bind or represent Karya in any manner.</p>
+          <p>1.5 The Platform is intended for use within the territory of India and may be made available only in such cities or locations as notified by Karya from time to time.</p>
+          <p>1.6 Karya may communicate with Customers through SMS, telephone calls, email, WhatsApp, in-app notifications, push notifications, or other electronic means in connection with bookings, service updates, customer support, security alerts, promotional campaigns, account-related communications, and other matters relating to the Platform. Customers may opt out of promotional communications where such option is available; however, Karya may continue to send communications that are necessary for the operation of the Platform, completion of bookings, legal compliance, safety, or customer support.</p>
+          <p>1.7 Karya may require Customers to complete identity verification, OTP verification, furnish government-issued identification documents, or provide such additional information as may reasonably be required for security, fraud prevention, regulatory compliance, or successful completion of a booking. Failure to provide such information may result in refusal, cancellation, suspension, or limitation of access to the Services.</p>
+          <p>1.8 Karya reserves the right to introduce, modify, suspend, discontinue, or withdraw any category of Services, features, or functionality on the Platform at any time, with or without prior notice, where reasonably necessary for operational, legal, regulatory, technical, or business reasons.</p>
+          <p><strong>1.9 Service Partner Verification:</strong> Karya undertakes reasonable verification of Service Partners prior to their onboarding on the Platform, which may include identity verification, address verification, background or antecedent checks, and such other verification measures as Karya considers appropriate from time to time. While Karya takes such measures to promote the safety and reliability of the Platform, Karya does not guarantee the conduct, character, skill, or performance of any Service Partner, and does not warrant that such verification will detect or prevent every instance of misconduct. Customers are encouraged to exercise their own reasonable precautions when availing the Services.</p>
+          <h2>2. ACCOUNT REGISTRATION AND MANAGEMENT</h2>
+          <p>2.1 To access or avail the Services, you may be required to create and maintain a user account on the Platform (“Account”). During registration, you shall provide such information as may be required by Karya sync from time to time, including but not limited to your name, mobile number, email address (where applicable), residential address, and such other information or documents as may be necessary for identity verification, security, regulatory compliance, or the effective provision of the Services. Registration may be subject to OTP verification or any other verification process prescribed by Karya.</p>
+          <p>2.2 By creating an Account, you represent and warrant that:</p>
           <ul>
-            <li>
-              License, sell, rent, lease, assign, distribute, transmit, host,
-              outsource, disclose or otherwise commercially exploit the app or
-              make the platform available to any third party.
-            </li>
-            <li>
-              Modify, make derivative works of, disassemble, decrypt, reverse
-              compile or reverse engineer any part of the app.
-            </li>
-            <li>
-              Remove, alter or obscure any proprietary notice (including any
-              notice of copyright or trademark) of Karya Sync or its affiliates,
-              partners, suppliers or the licensors of the app.
-            </li>
+            <li>you are at least 18 (Eighteen) years of age and are legally competent to enter into a binding contract under applicable law;</li>
+            <li>all information provided by you is true, complete, accurate, and up to date;</li>
+            <li>you shall promptly update your Account whenever any information becomes inaccurate or changes.</li>
           </ul>
-          <h2>Return and Refund Policy</h2>
-          <p>
-            Thanks for shopping at Karya Sync. We appreciate the fact that you
-            like to buy the stuff we build. We also want to make sure you have a
-            rewarding experience while you’re exploring, evaluating, and
-            purchasing our products.
-          </p>
-          <p>
-            As with any shopping experience, there are terms and conditions that
-            apply to transactions at Karya Sync. We’ll be as brief as our
-            attorneys will allow. The main thing to remember is that by placing
-            an order or making a purchase at Karya Sync, you agree to the terms
-            along with Karya Sync's Privacy Policy.
-          </p>
-          <p>
-            If, for any reason, You are not completely satisfied with any good
-            or service that we provide, don't hesitate to contact us and we will
-            discuss any of the issues you are going through with our product.
-          </p>
-          <h2>Your Suggestions</h2>
-          <p>
-            Any feedback, comments, ideas, improvements or suggestions
-            (collectively, "Suggestions") provided by you to Karya Sync with
-            respect to the app shall remain the sole and exclusive property of
-            Karya Sync.
-          </p>
-          <p>
-            Karya Sync shall be free to use, copy, modify, publish, or
-            redistribute the Suggestions for any purpose and in any way without
-            any credit or any compensation to you.
-          </p>
-          <h2>Your Consent</h2>
-          <p>
-            We've updated our Terms & Conditions to provide you with complete
-            transparency into what is being set when you visit our site and how
-            it's being used. By using our app, registering an account, or making
-            a purchase, you hereby consent to our Terms & Conditions.
-          </p>
-          <h2>Links to Other Websites</h2>
-          <p>
-            This Terms & Conditions applies only to the Services. The Services
-            may contain links to other websites not operated or controlled by
-            Karya Sync. We are not responsible for the content, accuracy or
-            opinions expressed in such websites, and such websites are not
-            investigated, monitored or checked for accuracy or completeness by
-            us. Please remember that when you use a link to go from the Services
-            to another website, our Terms & Conditions are no longer in effect.
-            Your browsing and interaction on any other website, including those
-            that have a link on our platform, is subject to that website’s own
-            rules and policies. Such third parties may use their own cookies or
-            other methods to collect information about you.
-          </p>
-          <h2>Cookies</h2>
-          <p>
-            Karya Sync uses "Cookies" to identify the areas of our website that
-            you have visited. A Cookie is a small piece of data stored on your
-            computer or mobile device by your web browser. We use Cookies to
-            enhance the performance and functionality of our app but are
-            non-essential to their use. However, without these cookies, certain
-            functionality like videos may become unavailable or you would be
-            required to enter your login details every time you visit the app as
-            we would not be able to remember that you had logged in previously.
-            Most web browsers can be set to disable the use of Cookies. However,
-            if you disable Cookies, you may not be able to access functionality
-            on our website correctly or at all. We never place Personally
-            Identifiable Information in Cookies.
-          </p>
-          <h2>Changes To Our Terms & Conditions</h2>
-          <p>
-            You acknowledge and agree that Karya Sync may stop (permanently or
-            temporarily) providing the Service (or any features within the
-            Service) to you or to users generally at sole discretion, without
-            prior notice to you. You may stop using the Service at any time. You
-            do not need to specifically inform Karya Sync when you stop using
-            the Service. You acknowledge and agree that if Karya Sync disables
-            access to your account, you may be prevented from accessing the
-            Service, your account details or any files or other materials which
-            is contained in your account.
-          </p>
-          <p>
-            If we decide to change our Terms & Conditions, we will post those
-            changes on this page, and/or update the Terms & Conditions
-            modification date below.
-          </p>
-          <h2>Modifications to Our app</h2>
-          <p>
-            Karya Sync reserves the right to modify, suspend or discontinue,
-            temporarily or permanently, the app or any service to which it
-            connects, with or without notice and without liability to you.
-          </p>
-          <h2>Updates to Our app</h2>
-          <p>
-            Karya Sync may from time to time provide enhancements or
-            improvements to the features/ functionality of the app, which may
-            include patches, bug fixes, updates, upgrades and other
-            modifications ("Updates").
-          </p>
-          <p>
-            Updates may modify or delete certain features and/or functionalities
-            of the app. You agree that Karya Sync has no obligation to (i)
-            provide any Updates, or (ii) continue to provide or enable any
-            particular features and/or functionalities of the app to you.
-          </p>
-          <p>
-            You further agree that all Updates will be (i) deemed to constitute
-            an integral part of the app, and (ii) subject to the terms and
-            conditions of this Agreement.
-          </p>
-          <h2>Third-Party Services</h2>
-          <p>
-            We may display, include or make available third-party content
-            (including data, information, applications and other products
-            services) or provide links to third-party websites or services
-            ("Third- Party Services").
-          </p>
-          <p>
-            You acknowledge and agree that Karya Sync shall not be responsible
-            for any Third-Party Services, including their accuracy,
-            completeness, timeliness, validity, copyright compliance, legality,
-            decency, quality or any other aspect thereof. Karya Sync does not
-            assume and shall not have any liability or responsibility to you or
-            any other person or entity for any Third-Party Services.
-          </p>
-          <p>
-            Third-Party Services and links thereto are provided solely as a
-            convenience to you and you access and use them entirely at your own
-            risk and subject to such third parties' terms and conditions.
-          </p>
-          <h2>Term and Termination</h2>
-          <p>
-            This Agreement shall remain in effect until terminated by you or
-            Karya Sync.
-          </p>
-          <p>
-            Karya Sync may, in its sole discretion, at any time and for any or
-            no reason, suspend or terminate this Agreement with or without prior
-            notice.
-          </p>
-          <p>
-            This Agreement will terminate immediately, without prior notice from
-            Karya Sync, in the event that you fail to comply with any provision
-            of this Agreement. You may also terminate this Agreement by deleting
-            the app and all copies thereof from your computer.
-          </p>
-          <p>
-            Upon termination of this Agreement, you shall cease all use of the
-            app and delete all copies of the app from your computer.
-          </p>
-          <p>
-            Termination of this Agreement will not limit any of Karya Sync's
-            rights or remedies at law or in equity in case of breach by you
-            (during the term of this Agreement) of any of your obligations under
-            the present Agreement.
-          </p>
-          <h2>Copyright Infringement Notice</h2>
-          <p>
-            If you are a copyright owner or such owner’s agent and believe any
-            material on our app constitutes an infringement on your copyright,
-            please contact us setting forth the following information: (a) a
-            physical or electronic signature of the copyright owner or a person
-            authorized to act on his behalf; (b) identification of the material
-            that is claimed to be infringing; (c) your contact information,
-            including your address, telephone number, and an email; (d) a
-            statement by you that you have a good faith belief that use of the
-            material is not authorized by the copyright owners; and (e) the a
-            statement that the information in the notification is accurate, and,
-            under penalty of perjury you are authorized to act on behalf of the
-            owner.
-          </p>
-          <h2>Indemnification</h2>
-          <p>
-            You agree to indemnify and hold Karya Sync and its parents,
-            subsidiaries, affiliates, officers, employees, agents, partners and
-            licensors (if any) harmless from any claim or demand, including
-            reasonable attorneys' fees, due to or arising out of your: (a) use
-            of the app; (b) violation of this Agreement or any law or
-            regulation; or (c) violation of any right of a third party.
-          </p>
-          <h2>No Warranties</h2>
-          <p>
-            The app is provided to you "AS IS" and "AS AVAILABLE" and with all
-            faults and defects without warranty of any kind. To the maximum
-            extent permitted under applicable law, Karya Sync, on its own behalf
-            and on behalf of its affiliates and its and their respective
-            licensors and service providers, expressly disclaims all warranties,
-            whether express, implied, statutory or otherwise, with respect to
-            the app, including all implied warranties of merchantability,
-            fitness for a particular purpose, title and non-infringement, and
-            warranties that may arise out of course of dealing, course of
-            performance, usage or trade practice. Without limitation to the
-            foregoing, Karya Sync provides no warranty or undertaking, and makes
-            no representation of any kind that the app will meet your
-            requirements, achieve any intended results, be compatible or work
-            with any other software, , systems or services, operate without
-            interruption, meet any performance or reliability standards or be
-            error free or that any errors or defects can or will be corrected.
-          </p>
-          <p>
-            Without limiting the foregoing, neither Karya Sync nor any Karya
-            Sync's provider makes any representation or warranty of any kind,
-            express or implied: (i) as to the operation or availability of the
-            app, or the information, content, and materials or products included
-            thereon; (ii) that the app will be uninterrupted or error-free;
-            (iii) as to the accuracy, reliability, or currency of any
-            information or content provided through the app; or (iv) that the
-            app, its servers, the content, or e-mails sent from or on behalf of
-            Karya Sync are free of viruses, scripts, trojan horses, worms,
-            malware, timebombs or other harmful components.
-          </p>
-          <p>
-            Some jurisdictions do not allow the exclusion of or limitations on
-            implied warranties or the limitations on the applicable statutory
-            rights of a consumer, so some or all of the above exclusions and
-            limitations may not apply to you.
-          </p>
-          <h2>Limitation of Liability</h2>
-          <p>
-            Notwithstanding any damages that you might incur, the entire
-            liability of Karya Sync and any of its suppliers under any provision
-            of this Agreement and your exclusive remedy for all of the foregoing
-            shall be limited to the amount actually paid by you for the app.
-          </p>
-          <p>
-            To the maximum extent permitted by applicable law, in no event shall
-            Karya Sync or its suppliers be liable for any special, incidental,
-            indirect, or consequential damages whatsoever (including, but not
-            limited to, damages for loss of profits, for loss of data or other
-            information, for business interruption, for personal injury, for
-            loss of privacy arising out of or in any way related to the use of
-            or inability to use the app, third-party software and/or third-party
-            hardware used with the app, or otherwise in connection with any
-            provision of this Agreement), even if Karya Sync or any supplier has
-            been advised of the possibility of such damages and even if the
-            remedy fails of its essential purpose.
-          </p>
-          <p>
-            Some states/jurisdictions do not allow the exclusion or limitation
-            of incidental or consequential damages, so the above limitation or
-            exclusion may not apply to you.
-          </p>
-          <h2>Severability</h2>
-          <p>
-            If any provision of this Agreement is held to be unenforceable or
-            invalid, such provision will be changed and interpreted to
-            accomplish the objectives of such provision to the greatest extent
-            possible under applicable law and the remaining provisions will
-            continue in full force and effect.
-          </p>
-          <p>
-            This Agreement, together with the Privacy Policy and any other legal
-            notices published by Karya Sync on the Services, shall constitute
-            the entire agreement between you and Karya Sync concerning the
-            Services. If any provision of this Agreement is deemed invalid by a
-            court of competent jurisdiction, the invalidity of such provision
-            shall not affect the validity of the remaining provisions of this
-            Agreement, which shall remain in full force and effect. No waiver of
-            any term of this Agreement shall be deemed a further or continuing
-            waiver of such term or any other term, and Karya Sync's failure to
-            assert any right or provision under this Agreement shall not
-            constitute a waiver of such right or provision. YOU AND Karya Sync
-            AGREE THAT ANY CAUSE OF ACTION ARISING OUT OF OR RELATED TO THE
-            SERVICES MUST COMMENCE WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION
-            ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED.
-          </p>
-          <h2>Waiver</h2>
-          <p>
-            Except as provided herein, the failure to exercise a right or to
-            require performance of an obligation under this Agreement shall not
-            effect a party's ability to exercise such right or require such
-            performance at any time thereafter nor shall be the waiver of a
-            breach constitute waiver of any subsequent breach.
-          </p>
-          <p>
-            o failure to exercise, and no delay in exercising, on the part of
-            either party, any right or any power under this Agreement shall
-            operate as a waiver of that right or power. Nor shall any single or
-            partial exercise of any right or power under this Agreement preclude
-            further exercise of that or any other right granted herein. In the
-            event of a conflict between this Agreement and any applicable
-            purchase or other terms, the terms of this Agreement shall govern.
-          </p>
-          <h2>Amendments to this Agreement</h2>
-          <p>
-            Karya Sync reserves the right, at its sole discretion, to modify or
-            replace this Agreement at any time. If a revision is material we
-            will provide at least 30 days' notice prior to any new terms taking
-            effect. What constitutes a material change will be determined at our
-            sole discretion.
-          </p>
-          <p>
-            By continuing to access or use our app after any revisions become
-            effective, you agree to be bound by the revised terms. If you do not
-            agree to the new terms, you are no longer authorized to use Karya
-            Sync.
-          </p>
-          <h2>Entire Agreement</h2>
-          <p>
-            The Agreement constitutes the entire agreement between you and Karya
-            Sync regarding your use of the app and supersedes all prior and
-            contemporaneous written or oral agreements between you and Karya
-            Sync.
-          </p>
-          <p>
-            You may be subject to additional terms and conditions that apply
-            when you use or purchase other Karya Sync's services, which Karya
-            Sync will provide to you at the time of such use or purchase.
-          </p>
-          <h2>Updates to Our Terms</h2>
-          <p>
-            We may change our Service and policies, and we may need to make
-            changes to these Terms so that they accurately reflect our Service
-            and policies. Unless otherwise required by law, we will notify you
-            (for example, through our Service) before we make changes to these
-            Terms and give you an opportunity to review them before they go into
-            effect. Then, if you continue to use the Service, you will be bound
-            by the updated Terms. If you do not want to agree to these or any
-            updated Terms, you can delete your account.
-          </p>
-          <h2>Intellectual Property</h2>
-          <p>
-            The app and its entire contents, features and functionality
-            (including but not limited to all information, software, text,
-            displays, images, video and audio, and the design, selection and
-            arrangement thereof), are owned by Karya Sync, its licensors or
-            other providers of such material and are protected by and
-            international copyright, trademark, patent, trade secret and other
-            intellectual property or proprietary rights laws. The material may
-            not be copied, modified, reproduced, downloaded or distributed in
-            any way, in whole or in part, without the express prior written
-            permission of Karya Sync, unless and except as is expressly provided
-            in these Terms & Conditions. Any unauthorized use of the material is
-            prohibited.
-          </p>
-          <h2>Agreement to Arbitrate</h2>
-          <p>
-            This section applies to any dispute EXCEPT IT DOESN’T INCLUDE A
-            DISPUTE RELATING TO CLAIMS FOR INJUNCTIVE OR EQUITABLE RELIEF
-            REGARDING THE ENFORCEMENT OR VALIDITY OF YOUR OR Karya Sync's
-            INTELLECTUAL PROPERTY RIGHTS. The term “dispute” means any dispute,
-            action, or other controversy between you and Karya Sync concerning
-            the Services or this agreement, whether in contract, warranty, tort,
-            statute, regulation, ordinance, or any other legal or equitable
-            basis. “Dispute” will be given the broadest possible meaning
-            allowable under law.
-          </p>
-          <h2>Notice of Dispute</h2>
-          <p>
-            In the event of a dispute, you or Karya Sync must give the other a
-            Notice of Dispute, which is a written statement that sets forth the
-            name, address, and contact information of the party giving it, the
-            facts giving rise to the dispute, and the relief requested. You must
-            send any Notice of Dispute via email to: 
-            <a href="mailto:karyasync@gmail.com">karyasync@gmail.com</a>. Karya
-            Sync will send any Notice of Dispute to you by mail to your address
-            if we have it, or otherwise to your email address. You and Karya
-            Sync will attempt to resolve any dispute through informal
-            negotiation within sixty (60) days from the date the Notice of
-            Dispute is sent. After sixty (60) days, you or Karya Sync may
-            commence arbitration.
-          </p>
-          <h2>Binding Arbitration</h2>
-          <p>
-            If you and Karya Sync don’t resolve any dispute by informal
-            negotiation, any other effort to resolve the dispute will be
-            conducted exclusively by binding arbitration as described in this
-            section. You are giving up the right to litigate (or participate in
-            as a party or class member) all disputes in court before a judge or
-            jury. The dispute shall be settled by binding arbitration in
-            accordance with the commercial arbitration rules of the American
-            Arbitration Association. Either party may seek any interim or
-            preliminary injunctive relief from any court of competent
-            jurisdiction, as necessary to protect the party’s rights or property
-            pending the completion of arbitration. Any and all legal,
-            accounting, and other costs, fees, and expenses incurred by the
-            prevailing party shall be borne by the non-prevailing party.
-          </p>
-          <h2>Submissions and Privacy</h2>
-          <p>
-            In the event that you submit or post any ideas, creative
-            suggestions, designs, photographs, information, advertisements, data
-            or proposals, including ideas for new or improved products,
-            services, features, technologies or promotions, you expressly agree
-            that such submissions will automatically be treated as
-            non-confidential and non-proprietary and will become the sole
-            property of Karya Sync without any compensation or credit to you
-            whatsoever. Karya Sync and its affiliates shall have no obligations
-            with respect to such submissions or posts and may use the ideas
-            contained in such submissions or posts for any purposes in any
-            medium in perpetuity, including, but not limited to, developing,
-            manufacturing, and marketing products and services using such ideas.
-          </p>
-          <h2>Promotions</h2>
-          <p>
-            Karya Sync may, from time to time, include contests, promotions,
-            sweepstakes, or other activities (“Promotions”) that require you to
-            submit material or information concerning yourself. Please note that
-            all Promotions may be governed by separate rules that may contain
-            certain eligibility requirements, such as restrictions as to age and
-            geographic location. You are responsible to read all Promotions
-            rules to determine whether or not you are eligible to participate.
-            If you enter any Promotion, you agree to abide by and to comply with
-            all Promotions Rules.
-          </p>
-          <p>
-            Additional terms and conditions may apply to purchases of goods or
-            services on or through the Services, which terms and conditions are
-            made a part of this Agreement by this reference.
-          </p>
-          <h2>Typographical Errors</h2>
-          <p>
-            In the event a product and/or service is listed at an incorrect
-            price or with incorrect information due to typographical error, we
-            shall have the right to refuse or cancel any orders placed for the
-            product and/or service listed at the incorrect price. We shall have
-            the right to refuse or cancel any such order whether or not the
-            order has been confirmed and your credit card charged. If your
-            credit card has already been charged for the purchase and your order
-            is canceled, we shall immediately issue a credit to your credit card
-            account or other payment account in the amount of the charge.
-          </p>
-          <h2>Miscellaneous</h2>
-          <p>
-            If for any reason a court of competent jurisdiction finds any
-            provision or portion of these Terms & Conditions to be
-            unenforceable, the remainder of these Terms & Conditions will
-            continue in full force and effect. Any waiver of any provision of
-            these Terms & Conditions will be effective only if in writing and
-            signed by an authorized representative of Karya Sync. Karya Sync
-            will be entitled to injunctive or other equitable relief (without
-            the obligations of posting any bond or surety) in the event of any
-            breach or anticipatory breach by you. Karya Sync operates and
-            controls the Karya Sync Service from its offices in . The Service is
-            not intended for distribution to or use by any person or entity in
-            any jurisdiction or country where such distribution or use would be
-            contrary to law or regulation. Accordingly, those persons who choose
-            to access the Karya Sync Service from other locations do so on their
-            own initiative and are solely responsible for compliance with local
-            laws, if and to the extent local laws are applicable. These Terms &
-            Conditions (which include and incorporate the Karya Sync Privacy
-            Policy) contains the entire understanding, and supersedes all prior
-            understandings, between you and Karya Sync concerning its subject
-            matter, and cannot be changed or modified by you. The section
-            headings used in this Agreement are for convenience only and will
-            not be given any legal import.
-          </p>
-          <h2>Disclaimer</h2>
-          <p>
-            Karya Sync is not responsible for any content, code or any other
-            imprecision.
-          </p>
-          <p>Karya Sync does not provide warranties or guarantees.</p>
-          <p>
-            In no event shall Karya Sync be liable for any special, direct,
-            indirect, consequential, or incidental damages or any damages
-            whatsoever, whether in an action of contract, negligence or other
-            tort, arising out of or in connection with the use of the Service or
-            the contents of the Service. The Company reserves the right to make
-            additions, deletions, or modifications to the contents on the
-            Service at any time without prior notice.
-          </p>
-          <p>
-            The Karya Sync Service and its contents are provided "as is" and "as
-            available" without any warranty or representations of any kind,
-            whether express or implied. Karya Sync is a distributor and not a
-            publisher of the content supplied by third parties; as such, Karya
-            Sync exercises no editorial control over such content and makes no
-            warranty or representation as to the accuracy, reliability or
-            currency of any information, content, service or merchandise
-            provided through or accessible via the Karya Sync Service. Without
-            limiting the foregoing, Karya Sync specifically disclaims all
-            warranties and representations in any content transmitted on or in
-            connection with the Karya Sync Service or on sites that may appear
-            as links on the Karya Sync Service, or in the products provided as a
-            part of, or otherwise in connection with, the Karya Sync Service,
-            including without limitation any warranties of merchantability,
-            fitness for a particular purpose or non-infringement of third party
-            rights. No oral advice or written information given by Karya Sync or
-            any of its affiliates, employees, officers, directors, agents, or
-            the like will create a warranty. Price and availability information
-            is subject to change without notice. Without limiting the foregoing,
-            Karya Sync does not warrant that the Karya Sync Service will be
-            uninterrupted, uncorrupted, timely, or error-free.
-          </p>
-          <h2>Contact Us</h2>
-          <p>Don't hesitate to contact us if you have any questions.</p>
+          <p>2.3 Each Customer shall maintain only one Account unless otherwise expressly authorised in writing by Karya. Karya reserves the right to suspend, restrict, merge, or permanently deactivate duplicate, fraudulent, fake, or unauthorised Accounts at its sole discretion.</p>
+          <p>2.4 You are solely responsible for maintaining the confidentiality and security of your Account credentials, passwords, OTPs, and verification codes. You shall not share, transfer, or permit any third party to access or use your Account.</p>
+          <p>2.5 You shall immediately notify Karya if you become aware of any actual or suspected unauthorised access, misuse, compromise, or security breach relating to your Account. Until such notification is received by Karya, all activities carried out through your Account shall be deemed to have been authorised by you, and you shall remain responsible for such activities to the extent permitted by applicable law.</p>
+          <p>2.6 Karya reserves the right to suspend, restrict, verify, deactivate, or terminate your Account, with or without prior notice, if it reasonably believes that:</p>
+          <ul>
+            <li>any information provided by you is false, inaccurate, incomplete, or misleading;</li>
+            <li>your Account is being used in an unauthorised, fraudulent, unlawful, or abusive manner;</li>
+            <li>you have violated these Terms, any applicable law, or any policy issued by Karya; or</li>
+            <li>such action is reasonably necessary for security, fraud prevention, regulatory compliance, protection of other users, or the integrity and operation of the Platform.</li>
+          </ul>
+          <p>2.7 By creating an Account, you consent to receive communications from Karya through SMS, telephone calls, email, WhatsApp, push notifications, or other electronic means regarding your bookings, payments, account activity, customer support, security alerts, policy updates, service notifications, and other operational communications. Karya may also send promotional or marketing communications in accordance with applicable law. You may opt out of receiving promotional communications where such option is made available; however, you acknowledge that operational and service-related communications are essential for the provision of the Services and cannot be opted out of.</p>
+          <p>2.8 Karya reserves the right to verify the identity of any Customer at any stage through OTP verification, government-issued identification documents, <strong>facial verification</strong>, or any other verification mechanism considered appropriate. Karya may refuse, suspend, or cancel any booking or Account if such verification is unsuccessful, incomplete, or where Karya reasonably suspects fraud, impersonation, or misuse of the Platform.</p>
+          <h2>3. USER CONTENT</h2>
+          <p>3.1 The Platform may enable Customers to post, upload, submit, publish, transmit, or otherwise make available comments, ratings, reviews, feedback, suggestions, photographs, videos, testimonials, service requests, chat messages, and other content or information (collectively, “User Content”).</p>
+          <p>3.2 You acknowledge and agree that Customers and Service Partners may provide ratings, reviews, and feedback about each other. All reviews and feedback should be honest, fair, accurate, and based on genuine experiences. You shall not post or submit any content that is false, misleading, defamatory, abusive, offensive, fraudulent, unlawful, or otherwise violates the rights of any person or applicable law.</p>
+          <p>3.3 You retain ownership of your User Content. However, by submitting or making User Content available through the Platform, you grant Karya a non-exclusive, worldwide, transferable, sub-licensable, royalty-free licence to host, store, reproduce, process, modify, adapt, publish, display, communicate, distribute, and otherwise use such User Content for the purposes of operating, maintaining, improving, promoting, securing, and administering the Platform, resolving disputes, complying with legal obligations, and marketing or promoting the Platform and its Services.</p>
+          <p>3.4 You represent and warrant that:</p>
+          <ul>
+            <li>you own or possess all necessary rights, permissions, and consents to upload or submit the User Content;</li>
+            <li>the User Content does not infringe any intellectual property, privacy, publicity, confidentiality, or other legal rights of any third party;</li>
+            <li>the User Content complies with applicable laws and these Terms.</li>
+          </ul>
+          <p>3.5 Karya reserves the right, but not the obligation, to review, monitor, edit, refuse, restrict, suspend, hide, or remove any User Content that, in its reasonable opinion, violates these Terms, applicable law, or the legitimate interests of Karya, its users, or any third party, without prior notice.</p>
+          <p>3.6 Karya shall not be responsible or liable for any User Content posted by Customers or Service Partners. The views expressed in such User Content are solely those of the person posting the content and do not necessarily reflect the views of Karya.</p>
+          <p>3.7 Karya may preserve, disclose, or provide User Content to law enforcement agencies, courts, regulatory authorities, or other competent governmental bodies where required by applicable law, pursuant to a lawful request, or where reasonably necessary to protect the rights, property, safety, or legitimate interests of Karya, its users, or the public.</p>
+          <h2>4. CONSENT TO USE DATA</h2>
+          <p>4.1 By accessing or using the Platform, you acknowledge and agree that Karya may collect, store, process, use, transfer, and otherwise handle your personal data in accordance with its Privacy Policy, as amended from time to time. The Privacy Policy forms an integral part of these Terms and explains the categories of personal data collected, the purposes for which such data is processed, and the safeguards adopted by Karya.</p>
+          <p>4.2 You consent to Karya using and sharing your personal data, where reasonably necessary, with its affiliates, business partners, payment gateway providers, cloud hosting providers, communication service providers, verification agencies, analytics providers, technology partners, professional advisors, and other authorised third-party service providers for purposes including but not limited to:</p>
+          <ul>
+            <li>providing and improving the Services;</li>
+            <li>processing bookings and payments;</li>
+            <li>customer support and dispute resolution;</li>
+            <li>identity verification and fraud prevention;</li>
+            <li>analytics, research, service improvement, and business operations;</li>
+            <li>marketing, promotional communications, loyalty programmes, and customer engagement initiatives, subject to applicable law; and</li>
+            <li>Compliance with contractual, regulatory, and legal obligations.</li>
+          </ul>
+          <p>4.3 Karya may disclose your personal data without further notice or consent where such disclosure is required or permitted under applicable law, or pursuant to a lawful request, order, notice, or direction issued by any court, tribunal, governmental authority, regulatory authority, law enforcement agency, or other competent authority. Such disclosure may also be made where reasonably necessary to protect the rights, property, security, or legitimate interests of Karya, its users, or the public, or to investigate, prevent, detect, or respond to fraud, security incidents, illegal activities, or violations of these Terms.</p>
+          <p>4.4 Karya may use anonymised, aggregated, or de-identified data derived from your use of the Platform for statistical analysis, product development, research, service improvement, business intelligence, and other lawful commercial purposes, provided that such data does not directly identify you.</p>
+          <p><strong>4.5 Rights of Data Principals:</strong> Subject to the provisions of the DPDP Act, Customers, as data principals, shall have the right to: (a) obtain a summary of the personal data processed and the processing activities undertaken by Karya; (b) seek correction, completion, and updating of their personal data; (c) seek erasure of personal data that is no longer necessary for the purpose for which it was processed, subject to any legal retention requirements; (d) withdraw consent at any time, without affecting the lawfulness of processing carried out prior to such withdrawal; (e) nominate another individual to exercise these rights in the event of the Customer’s death or incapacity; and (f) register a grievance with Karya’s Grievance Officer, in the manner set out in the Grievance Redressal clause of these Terms.</p>
+          <p><strong>4.7 Consent Withdrawal, Cross-Border Transfer, and Breach Notification:</strong> Where a Customer withdraws consent for processing of personal data that is necessary for the provision of the Services, Karya may be unable to continue providing such Services, and Karya shall not be liable for any consequence arising from such inability. Karya may transfer personal data outside India for processing, subject to and in accordance with the DPDP Act and any notification issued by the Central Government thereunder. In the event of a personal data breach, Karya shall take such steps as are required under the DPDP Act, including notifying the Data Protection Board of India and affected Customers, where applicable, within the timelines prescribed under applicable law.</p>
+          <h2>5. BOOKINGS</h2>
+          <p><strong>5.1 Booking Request:</strong> Customers may request Services through the Platform by selecting the desired service category, providing the required details, preferred date, time, location, and any other information reasonably requested by Karya. Submission of a booking request does not constitute confirmation or acceptance of the booking.</p>
+          <p><strong>5.2 Booking Confirmation:</strong> Upon receiving a booking request, Karya shall review the request and, subject to availability and operational feasibility, assign a suitable Service Partner as per the requirement. A booking shall be deemed confirmed only when Karya communicates the confirmation to the Customer through the Platform, SMS, email, WhatsApp, telephone call, push notification, or any other authorised communication channel.</p>
+          <p><strong>5.3 Assignment of Service Partner:</strong> The Customer acknowledges and agrees that the selection and assignment of a Service Partner shall be made solely by Karya or its authorised representatives based on factors including, but not limited to, the nature of the requested Service, the Service Partner’s skills, experience, availability, location, customer preferences, operational requirements, and other criteria determined by Karya from time to time. Unless expressly permitted by Karya, Customers shall not have the right to select or insist upon the assignment of any particular Service Partner. {/* TODO (from Word doc): "IS IT REQD IN FUTURE?" - confirm whether Karya-only Service Partner assignment (clause 5.3) is still needed. */}</p>
+          <p><strong>5.4 Rescheduling and Cancellation:</strong> Customers may reschedule or cancel a booking in accordance with Karya’s Refund and Cancellation Policy. Cancellation charges, rescheduling charges, or other applicable fees, if any, shall be determined in accordance with such policy and shall be communicated through the Platform.</p>
+          <p><strong>5.5 Replacement of Service Partner:</strong> Karya reserves the right to replace, reassign, or substitute the assigned Service Partner at any time before or during the performance of the Services due to unavailability, operational requirements, safety concerns, quality standards, emergencies, or any other reasonable business or operational reason. Such substitution shall not constitute a breach of these Terms, provided that Karya makes reasonable efforts to ensure the timely completion of the booked Service.</p>
+          <p><strong>5.6 Right to Refuse or Cancel Bookings:</strong> Karya reserves the right to refuse, suspend, modify, or cancel any booking at its reasonable discretion, including where the requested Service is unavailable, the booking contains inaccurate or incomplete information, there are concerns relating to safety, fraud, misuse of the Platform, non-payment, or where such action is necessary to comply with applicable law or protect the legitimate interests of Karya, its Service Partners, or other users.</p>
+          <p><strong>5.7 No Guaranteed Availability:</strong> While Karya shall use commercially reasonable efforts to facilitate the requested Services, Karya does not guarantee the availability of any specific Service Partner, service category, date, time slot, or location, and all bookings shall remain subject to availability and operational feasibility.</p>
+          <h2>6. PRICING AND PAYMENT TERMS</h2>
+          <p><strong>6.1 Pricing:</strong> The charges payable for Services shall be displayed on the Platform or otherwise communicated by Karya before confirmation of the booking. The pricing displayed may include the Service Charges, Platform Fee <em>(if applicable)</em>, applicable taxes, and any other charges specifically disclosed at the time of booking.</p>
+          <p><strong>6.2 Additional Charges:</strong> Where additional work is requested by the Customer after commencement of the Services, or where additional materials, spare parts, consumables, equipment, transportation, or out-of-pocket expenses become reasonably necessary for completion of the Services, such additional charges shall be payable by the Customer only after obtaining the Customer’s consent, wherever reasonably practicable.</p>
+          <p><strong>6.3 Payment Methods:</strong> Payments may be made through such payment methods as may be made available by Karya from time to time, including but not limited to UPI, debit cards, credit cards, net banking, digital wallets, payment gateways, bank transfers, cash (where permitted), or any other payment method notified on the Platform. Karya reserves the right to modify, restrict, or discontinue any payment method at its discretion.</p>
+          <p><strong>6.4 Timing of Payment:</strong> Depending upon the nature of the Service, Karya may require full payment, partial payment, an advance payment, or payment upon completion of the Service. The applicable payment terms shall be communicated at or before confirmation of the booking.</p>
+          <p><strong>6.5 Role of Karya:</strong> The Customer acknowledges that Karya may <strong>collect payments on behalf of the Service Partner</strong> and facilitate settlement of such amounts after deducting any Platform Fee, commission, or other amounts payable to Karya under its arrangements with the Service Partner. Payment made through the Platform shall be deemed to constitute valid payment for the booked Service.</p>
+          <p><strong>6.6 Taxes:</strong> All amounts payable under these Terms are exclusive or inclusive of applicable taxes, as specifically indicated at the time of booking. The Customer shall be responsible for payment of all applicable taxes forming part of the final invoice.</p>
+          <p><strong>6.7 Price Revisions:</strong> Karya reserves the right to revise pricing for future bookings at any time. Any such revision shall not affect bookings that have already been confirmed unless the scope of the booked Service is subsequently modified at the Customer’s request.</p>
+          <p><strong>6.8 Dynamic Pricing:</strong> The Customer acknowledges that pricing may vary based on factors including service category, location, urgency, timing, availability of Service Partners, complexity of work, demand, promotional offers, or other operational considerations. The applicable price shall be communicated before confirmation of the booking.</p>
+          <p><strong>6.9 Failed or Delayed Payments:</strong> If any payment is declined, reversed, disputed, refunded, or otherwise fails for any reason, Karya may suspend or cancel the booking, recover any outstanding amounts through lawful means, restrict access to the Platform, or take such other action as may be reasonably necessary to recover amounts lawfully due.</p>
+          <p><strong>6.10 Payment Service Providers:</strong> Payments processed through third-party payment gateways or payment service providers shall additionally be governed by their respective terms and conditions. Karya shall not be responsible for delays, interruptions, technical failures, banking errors, or other issues attributable solely to such third-party payment providers.</p>
+          <p><strong>6.11 Refunds and Cancellation Charges:</strong> Refunds, cancellation charges, rescheduling charges, or any applicable deductions shall be governed by Karya’s Refund and Cancellation Policy, as amended from time to time.</p>
+          <p><strong>6.12 Subscription Plans:</strong> Karya may introduce membership programmes, subscription plans, loyalty programmes, promotional offers, or similar schemes from time to time. Participation in such programmes shall be governed by the specific terms applicable to the relevant programme.</p>
+          <p><strong>6.13 Gratuity:</strong> Any tip or gratuity provided by the Customer to a Service Partner is entirely voluntary and shall remain solely at the Customer’s discretion. Karya neither requires nor mandates the payment of gratuities and does not represent that any portion of the amounts paid through the Platform constitutes a gratuity for the Service Partner.</p>
+          <p><strong>6.14 Outstanding Dues:</strong> If the Customer fails to pay any amount due under these Terms, Karya may suspend or restrict the Customer’s Account, refuse future bookings, adjust or set off any refundable amounts against outstanding dues, and initiate appropriate legal proceedings for recovery of such amounts together with applicable costs and expenses, where permitted by law.</p>
+          <h2>7. CUSTOMER CONDUCT</h2>
+          <p>7.1 Customers shall treat all Service Partners with dignity, courtesy, professionalism, and respect. Karya maintains a zero-tolerance policy against discrimination, harassment, intimidation, threats, violence, abusive behaviour, or any other unlawful or inappropriate conduct towards Service Partners.</p>
+          <p>7.2 Customers shall not discriminate against any Service Partner on the grounds of religion, race, caste, ethnicity, nationality, disability, age, gender, marital status, sexual orientation, gender identity, or any other characteristic protected under applicable law.</p>
+          <p>7.3 Customers shall provide a safe, hygienic, secure, and reasonably accessible environment for the performance of the Services. The Customer shall disclose any information that may reasonably affect the Service Partner’s ability to safely perform the Services, including but not limited to the presence of hazardous conditions, dangerous animals, ongoing construction, security concerns, health risks, or any other circumstance that may endanger the safety or well-being of the Service Partner.</p>
+          <p>7.4 A Service Partner may refuse to commence or continue the Services where, in the Service Partner’s reasonable opinion, the working environment is unsafe, unlawful, abusive, unhygienic, or otherwise unsuitable for the proper performance of the Services. In such cases, Karya may cancel the booking, levy applicable charges in accordance with its policies, and take such further action as it considers appropriate.</p>
+          <p>7.5 Customers shall not request or require a Service Partner to perform any illegal, dangerous, unethical, or unauthorised activity, or any work outside the scope of the booked Services without the Service Partner’s consent and Karya’s approval where applicable.</p>
+          <p>7.6 Karya reserves the right, at its reasonable discretion, to suspend, restrict, or permanently terminate a Customer’s access to the Platform where the Customer engages in fraudulent, abusive, discriminatory, threatening, unlawful, or inappropriate conduct, repeatedly cancels bookings without reasonable cause, misuses the Platform, or otherwise violates these Terms.</p>
+          <p>7.7 If a Customer believes that a Service Partner has acted in an unprofessional, abusive, unlawful, fraudulent, or otherwise inappropriate manner, the Customer should report the incident to Karya through the Platform, customer support, or by email at <a href="mailto:karyasync@gmail.com">karyasync@gmail.com</a> as soon as reasonably practicable after becoming aware of the incident. Karya may investigate such complaints and take appropriate action in accordance with its internal policies and applicable law.</p>
+          <p>7.8 Customers shall not directly employ, induce, solicit, threaten, or coerce any Service Partner to violate the Service Partner Agreement or perform services outside the Platform in contravention of Karya’s policies.</p>
+          <h2>8. THIRD PARTY SERVICES</h2>
+          <p>8.1 The Platform may contain or provide access to third-party websites, applications, software, payment gateways, communication services, mapping services, cloud services, verification services, APIs, content, products, advertisements, or other services (collectively, “Third-Party Services”). Such Third-Party Services are provided by independent third parties and are made available solely for the convenience of Customers.</p>
+          <p>8.2 Karya does not own, operate, manage, or control Third-Party Services and does not make any representation, warranty, or guarantee regarding their availability, accuracy, reliability, quality, security, legality, suitability, or performance. Access to and use of any Third-Party Service shall be entirely at the Customer’s own discretion and risk.</p>
+          <p>8.3 Where a Customer chooses to access or use any Third-Party Service through or in connection with the Platform, such use shall be governed by the applicable terms of use, privacy policy, and other policies of the relevant third party. Karya shall not be responsible for any act, omission, failure, delay, loss, damage, or dispute arising from or relating to the Customer’s use of any Third-Party Service.</p>
+          <p>8.4 The inclusion of any Third-Party Service, link, logo, or reference on the Platform shall not be construed as an endorsement, recommendation, sponsorship, or approval by Karya of such Third-Party Service or its provider.</p>
+          <p>8.5 All intellectual property rights in and relating to any Third-Party Services shall remain the exclusive property of their respective owners or licensors. Nothing contained in these Terms shall be construed as granting the Customer any rights in respect of such intellectual property except as expressly permitted by the relevant third-party provider.</p>
+          <p>8.6 Karya shall not be liable for any payment failures, delayed settlements, chargebacks, banking errors, or technical issues attributable solely to any third-party payment service provider.</p>
+          <h2>9. YOUR RESPONSIBILITIES</h2>
+          <p>9.1 You represent and warrant that all information provided by you to Karya is true, accurate, complete, and up to date. You shall promptly update any information that becomes inaccurate or incomplete. Karya shall not be responsible for any loss, delay, or inability to provide the Services arising from incorrect, incomplete, or misleading information furnished by you.</p>
+          <p>9.2 You agree to cooperate with Karya in the investigation, defence, or resolution of any complaint, claim, dispute, legal proceeding, or regulatory inquiry arising out of your use of the Platform or any breach of these Terms.</p>
+          <p>9.3 You shall use the Platform only for lawful purposes and in accordance with these Terms. You shall not:</p>
+          <ol type="a">
+            <li>make false, misleading, frivolous, or fraudulent bookings;</li>
+            <li>provide false information or impersonate another person;</li>
+            <li>misuse, manipulate, or interfere with the functioning of the Platform;</li>
+            <li>upload, transmit, or distribute any content containing viruses, malware, malicious code, or other harmful software;</li>
+            <li>use automated tools, bots, scripts, crawlers, or similar technologies to access or interact with the Platform without Karya’s prior written consent;</li>
+            <li>infringe the intellectual property, privacy, or other legal rights of Karya or any third party;</li>
+            <li>engage in any activity that disrupts, damages, overloads, or adversely affects the Platform or its users;</li>
+            <li>use the Platform for any unlawful, fraudulent, abusive, or unauthorised purpose; or</li>
+            <li>attempt to gain unauthorised access to the Platform, its servers, databases, networks, or any connected systems.</li>
+          </ol>
+          <p>9.4 You shall ensure that the information provided while making a booking, including the address, contact details, nature of work, and any special instructions, is accurate and sufficient to enable the Service Partner to perform the requested Services.</p>
+          <p>9.5 You shall not knowingly request any Service Partner to perform any unlawful, unsafe, unethical, or hazardous activity, or any work materially outside the scope of the booked Services without the prior approval of Karya where required.</p>
+          <p>9.6 You shall not make any false, malicious, exaggerated, or misleading complaint against a Service Partner or Karya. Karya reserves the right to investigate any complaint and take appropriate action where it reasonably believes that a complaint has been made dishonestly or in bad faith.</p>
+          <p>9.7 You shall not directly or indirectly encourage, induce, solicit, persuade, or attempt to engage any Service Partner introduced through the Platform to provide the same or substantially similar services outside the Platform during the subsistence of the booking or in a manner intended to circumvent Karya’s Platform, commission structure, or business model. Where a Customer subsequently engages a Service Partner independently after having been introduced through the Platform, Karya reserves the right to suspend the Customer’s Account and deny future access to the Platform if such engagement was undertaken with the intention of circumventing Karya’s Platform or avoiding applicable Platform charges.</p>
+          <p>9.8 You shall not interfere with, obstruct, threaten, intimidate, or otherwise hinder a Service Partner in the lawful performance of the booked Services.</p>
+          <p>9.9 Karya reserves the right to suspend, restrict, or terminate your access to the Platform if it reasonably believes that you have violated these Terms, applicable law, or engaged in conduct that may adversely affect Karya, its Service Partners, Customers, or the integrity of the Platform.</p>
+          <h2>10. OUR INTELLECTUAL PROPERTY</h2>
+          <p>10.1 The Platform, including its software, source code, design, layout, user interface, features, functionality, content, text, graphics, images, logos, trademarks, trade names, service marks, databases, documentation, business processes, and all other intellectual property rights associated with the Platform and the Services (collectively, the “Intellectual Property”), are owned by or licensed to Karya and are protected under applicable intellectual property laws.</p>
+          <p>10.2 Subject to your compliance with these Terms, Karya grants you a limited, non-exclusive, non-transferable, non-sub licensable, revocable licence to access and use the Platform solely for the purpose of requesting and availing Services through the Platform. No ownership rights or other rights in the Intellectual Property are transferred or assigned to you under these Terms.</p>
+          <p>10.3 You shall not, without Karya’s prior written consent:</p>
+          <ol type="a">
+            <li>copy, reproduce, modify, distribute, publish, display, transmit, or commercially exploit any part of the Platform or its Intellectual Property;</li>
+            <li>use Karya’s name, logo, trademarks, branding, domain names, or other proprietary material in any manner that suggests endorsement, affiliation, or association with Karya;</li>
+            <li>reverse engineer, decompile, disassemble, or attempt to derive the source code of the Platform, except to the extent expressly permitted by applicable law; or</li>
+            <li>remove, alter, or obscure any copyright, trademark, proprietary notice, or other ownership notice appearing on the Platform.</li>
+          </ol>
+          <p>10.4 Karya may, from time to time, invite you to provide suggestions, comments, ideas, reviews, bug reports, or other feedback relating to the Platform or the Services (“Feedback”). By submitting any Feedback, you grant Karya a perpetual, irrevocable, worldwide, royalty-free, transferable licence to use, reproduce, modify, publish, implement, and otherwise exploit such Feedback without any obligation to compensate or acknowledge you.</p>
+          <p>10.5 Except for the limited licence expressly granted under these Terms, nothing contained herein shall be construed as granting you any ownership, licence, or other right in or to Karya’s Intellectual Property or the intellectual property of any third party.</p>
+          <p>10.6 The Customer shall not scrape, extract, copy, harvest, compile, or otherwise use any information relating to Service Partners, customers, pricing, or databases available on the Platform for any commercial purpose or to develop or support a competing platform or service.</p>
+          <h2>11. TERMS AND TERMINATIONS</h2>
+          <p>11.1 These Terms shall come into effect upon your first access to or use of the Platform and shall continue to remain in force unless terminated in accordance with this Clause.</p>
+          <p>11.2 Karya may, at its reasonable discretion, suspend, restrict, deactivate, or permanently terminate your Account or access to the Platform, with or without prior notice, where:</p>
+          <ul>
+            <li>you breach these Terms, the Privacy Policy, Community Guidelines, or any other policy issued by Karya;</li>
+            <li>any information provided by you is false, inaccurate, misleading, or incomplete;</li>
+            <li>Karya reasonably suspects fraud, misuse of the Platform, illegal activity, unauthorised access, payment default, or any conduct prejudicial to the interests of Karya, its Service Partners, Customers, or other users;</li>
+            <li>such action is necessary to comply with applicable law, any court order, regulatory direction, or governmental requirement; or</li>
+            <li>Suspension or termination is reasonably required for operational, business, technical, security, or risk management purposes.</li>
+          </ul>
+          <p>11.3 You may terminate these Terms and close your Account at any time by following the account deletion process available on the Platform or by submitting a written request to <a href="mailto:karyasync@gmail.com">karyasync@gmail.com</a>. Termination shall not affect any rights or obligations that have accrued prior to the effective date of termination.</p>
+          <p>11.4 Upon suspension or termination:</p>
+          <ul>
+            <li>your right to access and use the Platform shall immediately cease;</li>
+            <li>Karya may deactivate or delete your Account, subject to retention of information as required under applicable law or its Privacy Policy;</li>
+            <li>any outstanding payments, liabilities, claims, or obligations existing prior to termination shall remain enforceable; and</li>
+            <li>those provisions of these Terms which, by their nature or express wording, are intended to survive termination, including without limitation those relating to intellectual property, payments, limitation of liability, indemnity, dispute resolution, governing law, privacy, confidentiality, and any accrued rights or remedies, shall continue to remain in full force and effect.</li>
+          </ul>
+          <p>11.5 Where Karya has suspended or terminated a Customer’s Account for fraud, misuse, policy violations, or unlawful conduct, the Customer shall not create or attempt to create another Account without Karya’s prior written consent.</p>
+          <h2>12. DISCLAIMER AND WARRANTIES</h2>
+          <p>12.1 The Platform and the Services are provided on an “as is” and “as available” basis. To the fullest extent permitted under applicable law, Karya disclaims all express, implied, statutory, or other warranties, including warranties of merchantability, fitness for a particular purpose, non-infringement, uninterrupted availability, accuracy, reliability, or suitability of the Platform or the Services.</p>
+          <p>12.2 While Karya makes reasonable efforts to maintain accurate information regarding the Services, pricing, availability, and other details displayed on the Platform, inadvertent errors, omissions, technical inaccuracies, or typographical mistakes may occur. Karya reserves the right to correct such errors at any time, including after a booking request has been submitted.</p>
+          <p>12.3 Karya operates solely as a technology-enabled marketplace facilitating the connection between Customers and independent Service Partners. Unless expressly stated otherwise, Karya does not itself perform the Services and does not supervise or control the manner in which the Services are rendered. Accordingly, the Service Partner shall remain primarily responsible for the quality, execution, safety, and completion of the booked Services.</p>
+          <p>12.4 Karya does not guarantee that:</p>
+          <ul>
+            <li>the Platform will always be uninterrupted, error-free, secure, or continuously available;</li>
+            <li>every booking request will be accepted or fulfilled;</li>
+            <li>any particular Service Partner will be available at a requested date or time; or</li>
+            <li>the Services will meet every individual expectation or requirement of the Customer.</li>
+          </ul>
+          <p>12.5 Customers who choose to engage, employ, or obtain services directly from a Service Partner outside the Platform do so entirely at their own discretion and risk. Karya shall have no responsibility or liability in relation to such independent arrangements.</p>
+          <p>12.6 Karya may facilitate customer support, complaint resolution, refunds, or other assistance as a matter of commercial practice; however, such assistance shall not be construed as an admission of liability or as creating any obligation beyond those expressly provided under these Terms or applicable law.</p>
+          <p>12.7 To the maximum extent permitted by applicable law, Karya shall not be liable for any indirect, incidental, special, exemplary, punitive, or consequential loss or damage, including loss of profits, business opportunities, goodwill, reputation, data, anticipated savings, or other economic loss arising from or relating to the use of the Platform or the Services.</p>
+          <p>12.8 Karya shall not be responsible for any delay, interruption, system failure, technical malfunction, internet disruption, cyberattack, unauthorised access, loss of data, or unavailability of the Platform resulting from events beyond its reasonable control or attributable to third-party infrastructure or service providers.</p>
+          <p>12.9 To the fullest extent permitted by law, Karya’s aggregate liability arising out of or relating to any booking or these Terms shall not exceed the lower of:</p>
+          <ul>
+            <li><strong>The Platform Fee or commission actually earned by Karya in respect of the relevant booking; or</strong></li>
+            <li><strong>INR 10,000 (Rupees Ten Thousand only).</strong></li>
+          </ul>
+          <p>12.10 Nothing contained in these Terms shall exclude or limit any liability that cannot lawfully be excluded or restricted under applicable law, including rights available to Customers under the Consumer Protection Act, 2019, or any other mandatory statutory protection.</p>
+          <p><strong>12.11 Customer Property:</strong> Customers are responsible for securing their valuables, confidential information, cash, jewellery, electronic devices, and other personal belongings before the commencement of the Services. Except where loss or damage is directly attributable to Karya’s own negligence or wilful misconduct, Karya shall not be liable for any loss, theft, or damage to such items.</p>
+          <p><strong>12.12 Property Damage:</strong> Where a Service Partner causes physical damage to the Customer’s property directly arising from and in the course of performance of the booked Services, the Customer may report such damage to Karya through the Platform or customer support within 48 (forty-eight) hours of completion of the Service, together with photographic or other reasonable evidence of the damage. Karya shall investigate such reports in good faith and, subject to the outcome of such investigation and Karya’s applicable policies (including any property damage protection or insurance arrangement then in effect), may facilitate resolution between the Customer and the Service Partner, including repair, replacement, or compensation, as Karya considers appropriate. Nothing in this Clause obliges Karya to compensate the Customer directly for such damage, except to the extent expressly agreed by Karya in writing or required under applicable law.</p>
+          <p><strong>12.13 Property Damage – Liability Cap:</strong> Notwithstanding Clause 12.9, where Karya elects, at its discretion or pursuant to a specific property damage protection scheme communicated on the Platform, to compensate a Customer directly for property damage caused by a Service Partner, Karya’s liability in respect of such damage shall be limited to the amount specified in the terms of such scheme, or, in the absence of such a scheme, to the limits set out in Clause 12.9. {/* TODO (from Word doc): confirm whether a dedicated, higher property-damage compensation limit and/or Service Partner insurance will be introduced (INR 10,000 cap in 12.9 may be inadequate). */}</p>
+          <h2>13. INDEMNITY</h2>
+          <p>13.1 You agree to indemnify, defend, and hold harmless Karya, its affiliates( if Any), directors, officers, employees, consultants, authorised representatives, agents, and licensors from and against any claims, demands, actions, proceedings, liabilities, losses, damages, penalties, costs, and expenses (including reasonable legal fees and expenses) arising out of or in connection with:</p>
+          <ul>
+            <li>your breach of these Terms, the Privacy Policy, or any other policy issued by Karya;</li>
+            <li>your misuse of the Platform or the Services;</li>
+            <li>any false, inaccurate, misleading, or fraudulent information or representation provided by you;</li>
+            <li>your violation of any applicable law or the rights of any third party, including intellectual property, privacy, confidentiality, or proprietary rights;</li>
+            <li>any act, omission, negligence, wilful misconduct, or unlawful conduct committed by you in connection with your use of the Platform or the Services; or</li>
+            <li>any claim, dispute, or proceeding arising from your interactions with a Service Partner or any third party, to the extent attributable to your acts or omissions.</li>
+          </ul>
+          <p>13.2 Karya shall promptly notify you of any claim for which indemnification is sought, provided that any delay or failure in giving such notice shall not relieve you of your indemnification obligations except to the extent you are materially prejudiced by such delay.</p>
+          <p>13.3 Nothing contained in this Clause shall require you to indemnify Karya for any loss or liability arising solely from Karya’s own gross negligence, fraud, or wilful misconduct, or where such indemnity is prohibited under applicable law.</p>
+          <p>13.4 Karya shall indemnify and hold the Customer harmless against any direct loss, damage, or liability arising solely from Karya’s gross negligence, fraud, or wilful misconduct, subject always to the limitations of liability contained in these Terms.</p>
+          <h2>14. JURISDICTION, GOVERNING LAWS AND DISPUTE RESOLUTION</h2>
+          <p><strong>14.1 Governing Law:</strong> These Terms shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles.</p>
+          <p><strong>14.2 Amicable Resolution:</strong> In the event of any dispute, controversy, claim, or difference arising out of or relating to these Terms, the Platform, or the Services, the parties shall first endeavour to resolve the dispute amicably through good-faith discussions. Either party may notify the other party in writing of the existence of such dispute.</p>
+          <p><strong>14.3 Arbitration:</strong> If the dispute is not resolved amicably within 30 (Thirty) days from the date of receipt of the written notice, the dispute shall be referred to and finally resolved by arbitration in accordance with the provisions of the Arbitration and Conciliation Act, 1996, as amended from time to time.</p>
+          <ul>
+            <li>The arbitral tribunal shall consist of a sole arbitrator mutually appointed by the parties. If the parties fail to agree upon the appointment of the arbitrator within the period prescribed under applicable law, the arbitrator shall be appointed in accordance with the provisions of the Arbitration and Conciliation Act, 1996.</li>
+            <li>The seat and venue of arbitration shall be New Delhi, India.</li>
+            <li>The language of the arbitration proceedings shall be English.</li>
+            <li>The arbitral proceedings, pleadings, evidence, correspondence, and award shall remain confidential except where disclosure is required by law, for enforcement of the arbitral award, or for protecting the legal rights of a party.</li>
+            <li>The arbitral award shall be final and binding upon the parties, subject to remedies available under applicable law.</li>
+            <li>Unless otherwise directed by the arbitral tribunal, each party shall bear its own legal costs and expenses, while the fees and expenses of the arbitral tribunal shall be shared equally by the parties.</li>
+          </ul>
+          <p><strong>14.4 Exclusive Jurisdiction:</strong> Subject to Clause 14.3 and the rights available under applicable law, the courts at New Delhi shall have exclusive jurisdiction over all matters arising out of or relating to these Terms.</p>
+          <p><strong>14.5 Consumer Rights:</strong> Nothing contained in these Terms shall restrict or extinguish any statutory right or remedy available to a Customer under the Consumer Protection Act, 2019, or any other applicable law.</p>
+          <p><strong>14.6 Interim Relief:</strong> Nothing contained in this Clause shall prevent either party from approaching any court of competent jurisdiction for interim, urgent, or injunctive relief before, during, or after the arbitral proceedings, where such relief is necessary to protect its rights.</p>
+          <h2>15. GRIEVANCE OFFICER</h2>
+          <p>15.1 <strong>Grievance Officer:</strong> In accordance with the Consumer Protection (E-Commerce) Rules, 2020, the Information Technology Act, 2000 and the rules made thereunder, and the Digital Personal Data Protection Act, 2023, Karya has appointed a Grievance Officer to address complaints and grievances of Customers relating to the Platform and the Services. The name, designation, and contact details of the Grievance Officer are as follows:</p>
+          <p>Name: VIKAS<br />Designation: Grievance Officer<br />Email: <a href="mailto:admin@karyasync.com">admin@karyasync.com</a><br />Address: House No. 14A, Ashoka Society, Vasundhara, Ghaziabad, Uttar Pradesh, India</p>
+          <p>15.2 A Customer may report any grievance, complaint, or concern relating to the Platform, a booking, a Service Partner, or these Terms to the Grievance Officer at the contact details set out above. Karya shall acknowledge receipt of the grievance within 48 (forty-eight) hours and shall endeavour to resolve the grievance within 1 (one) month from the date of receipt, or such other period as may be prescribed under applicable law.</p>
+          <p><strong>15.3 Data Protection Grievances:</strong> For grievances specifically relating to the processing of personal data under the DPDP Act, Customers may contact Karya’s Data Protection Officer or Grievance Officer at the contact details published in Karya’s Privacy Policy.</p>
+          <p><strong>15.4 No Waiver of Statutory Remedies:</strong> The grievance redressal mechanism set out in this Clause is in addition to, and not in substitution of, any right or remedy available to a Customer under the Consumer Protection Act, 2019, the DPDP Act, or any other applicable law, including the right to approach a Consumer Disputes Redressal Commission or the Data Protection Board of India.</p>
+          <h2>16. MISCELLANEOUS PROVISIONS</h2>
+          <p><strong>16.1 Amendment of Terms:</strong> Karya reserves the right to amend, modify, or update these Terms from time to time to reflect changes in law, business practices, technology, or the Services. Any material changes shall become effective upon expiry of 7 (Seven) days from the date of publication on the Platform or such other date as may be notified by Karya, unless immediate implementation is required by law, regulatory direction, or security considerations. Your continued use of the Platform after the effective date of such amendments shall constitute your acceptance of the revised Terms.</p>
+          <p><strong>16.2 Modification or Discontinuation of Services:</strong> Karya may introduce, modify, suspend, discontinue, or withdraw any feature, functionality, service category, or part of the Platform, temporarily or permanently, for operational, technical, commercial, legal, regulatory, security, or business reasons. Karya shall use reasonable efforts to notify Customers of any material discontinuation where reasonably practicable. Such modification or discontinuation shall not give rise to any claim for compensation unless otherwise required by applicable law.</p>
+          <p><strong>16.3 Severability:</strong> If any provision of these Terms is held to be invalid, illegal, or unenforceable by a court or other competent authority, such provision shall, to the extent of such invalidity or unenforceability, be deemed severed from these Terms, and the remaining provisions shall continue in full force and effect.</p>
+          <p><strong>16.4 Assignment:</strong> You shall not assign, transfer, delegate, or otherwise dispose of any of your rights or obligations under these Terms without Karya’s prior written consent. Karya may assign or transfer its rights or obligations under these Terms to any affiliate, successor entity, purchaser of its business, or any other person in connection with a merger, acquisition, restructuring, or transfer of business, without requiring your prior consent.</p>
+          <p><strong>16.5 Notices:</strong> Karya may issue notices, communications, or other information through the Platform, email, SMS, WhatsApp, push notifications, telephone calls, or any other contact details provided by you. Any legal notice intended for Karya shall be sent to <a href="mailto:karyasync@gmail.com">karyasync@gmail.com</a> or such other address as may be notified by Karya from time to time.</p>
+          <p><strong>16.6 No Third-Party Rights:</strong> Except as expressly provided under these Terms, no person who is not a party to these Terms shall have any right to enforce any provision contained herein.</p>
+          <p><strong>16.7 Force Majeure:</strong> Karya shall not be liable for any delay or failure in performing its obligations under these Terms where such delay or failure results from events beyond its reasonable control, including but not limited to acts of God, natural disasters, floods, earthquakes, fires, pandemics, epidemics, war, terrorism, riots, civil unrest, labour disputes, governmental actions, changes in law, internet or telecommunications failures, cyberattacks, power outages, failure of third-party service providers, or any other event beyond Karya’s reasonable control.</p>
+          <p><strong>16.8 Entire Agreement:</strong> These Terms, together with the Privacy Policy, Refund and Cancellation Policy, Community Guidelines, and any other policies or guidelines expressly incorporated by reference, constitute the entire agreement between you and Karya relating to the Platform and supersede all prior understandings, communications, negotiations, and agreements relating to the subject matter hereof.</p>
+          <p><strong>16.9 No Waiver:</strong> Any failure or delay by Karya in exercising any right, remedy, or provision under these Terms shall not operate as a waiver of such right or remedy, nor shall any single or partial exercise of any right preclude any further exercise of that or any other right.</p>
         </div>
       </main>
       <Footer />

@@ -157,6 +157,7 @@ export const faqs: FaqItem[] = [
 export const footerLinks = {
   terms: "/terms",
   privacy: "/privacy-policy",
+  partnersPrivacy:"/partners-policy"
 };
 export const socialLinks = [
   {
