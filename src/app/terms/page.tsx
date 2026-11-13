@@ -37,7 +37,7 @@ export default function Terms() {
       </section>
       <main className={styles.contentSection}>
         <div className={styles.policyContent}>
-          <h1>Customer Terms and Conditions</h1>
+          <h1> Terms and Conditions</h1>
           <span className={styles.updatedBadge}>
             Last Updated: 1st September, 2026
           </span>
