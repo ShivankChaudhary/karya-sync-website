@@ -7,39 +7,32 @@ export default function Footer() {
     <footer className={styles.footer} id="footer">
       <div className={`container ${styles.footerInner}`}>
         <div className={styles.emailSection}>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3 5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5z"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M3 7l9 6 9-6"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-          <a href="mailto:karyasync@gmail.com">karyasync@gmail.com</a>
+          <div className={styles.contactItem}>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3 5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5z"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <path
+                d="M3 7l9 6 9-6"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+            <a href="mailto:karyasync@gmail.com">karyasync@gmail.com</a>
+          </div>
+
           <span className={styles.separator}>|</span>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M22 16.92v3a2 2 0 01-2.18 2
+
+          <div className={styles.contactItem}>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22 16.92v3a2 2 0 01-2.18 2
        19.79 19.79 0 01-8.63-3.07
        19.5 19.5 0 01-6-6
        19.79 19.79 0 01-3.07-8.67
@@ -51,18 +44,20 @@ export default function Footer() {
        a2 2 0 012.11-.45
        12.84 12.84 0 002.81.7
        A2 2 0 0122 16.92z"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+            <a href="tel:+917678112184">+91 7678112184</a>
+          </div>
 
-          <a href="tel:+917678112184">+91 7678112184</a>
           <span className={styles.separator}>|</span>
-          <a href="/contact-us" target="_blank">
-            Contact Us
-          </a>
+
+          <div className={styles.contactItem}>
+            <a href="/contact-us" target="_blank">Contact Us</a>
+          </div>
         </div>
 
         <div className={styles.legalLinks}>
@@ -72,6 +67,10 @@ export default function Footer() {
           <span className={styles.separator}>|</span>
           <a href={footerLinks.privacy} target="_blank">
             Privacy Policy
+          </a>
+          <span className={styles.separator}>|</span>
+          <a href={footerLinks.partnersPrivacy} target="_blank">
+            Service Partners Privacy Policy
           </a>
         </div>
 
