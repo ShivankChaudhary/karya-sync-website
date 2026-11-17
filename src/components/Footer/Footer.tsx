@@ -72,6 +72,10 @@ export default function Footer() {
           <a href={footerLinks.partnersPrivacy} target="_blank">
             Service Partners Privacy Policy
           </a>
+          <span className={styles.separator}>|</span>
+          <a href={footerLinks.partnersTerms} target="_blank">
+            Partners Terms and Conditions
+          </a>
         </div>
 
         <div className={styles.socials}>
